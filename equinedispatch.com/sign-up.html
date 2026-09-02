@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="EN">
   
-<!-- Mirrored from https://equinedispatch.com/sign-up?role=layover by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:48:33 GMT -->
+<!-- Mirrored from https://equinedispatch.com/sign-up by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:51:54 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <!-- Google Tag Manager -->
@@ -299,22 +299,22 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="carriers">
+                            <a class="nav-link" href="carriers.html">
                                 Carriers
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="layovers">
+                            <a class="nav-link" href="layovers.html">
                                 Layovers
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="faq">
+                            <a class="nav-link" href="faq.html">
                                 FAQ
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="contact-us">
+                            <a class="nav-link" href="contact-us.html">
                                 Contact Us
                             </a>
                         </li>
@@ -368,7 +368,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                         <!-- Cards Selection -->
                         <div class="role-cards-container">
                             <a href="sign-upeeca?role=shipper"
-                                class="role-card " data-target="shipper">
+                                class="role-card  active " data-target="shipper">
                                 <div class="card-header-info">
                                     <div class="card-icon-circle">
                                         <i class="fa-solid fa-box"></i>
@@ -400,7 +400,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                             </a>
 
                             <a href="sign-up056f?role=layover"
-                                class="role-card  active " data-target="layover">
+                                class="role-card " data-target="layover">
                                 <div class="card-header-info">
                                     <div class="card-icon-circle">
                                         <i class="fa-solid fa-house"></i>
@@ -416,49 +416,55 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                             </a>
                         </div>
 
-                                                    <div class="layover-form-wrapper">
+                                                    <div class="shipper-form-wrapper">
                                 <div class="login-form mt-0">
                                     <form class="login-form" method="post" action="https://equinedispatch.com/sign-up-store/store" name="frm"
-                                        method="post" enctype="multipart/form-data" id="layovers_sign_up_validation"
+                                        method="post" enctype="multipart/form-data" id="shippers_sign_up_validation"
                                         autocomplete="off">
-                                        <input type="hidden" name="_token" value="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">                                        <input type="hidden" id="eUserType" name="eUserType" value="Layover">
+                                        <input type="hidden" name="_token" value="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">                                        <meta name="csrf-token" content="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">
+                                        <input type="hidden" id="eUserType" name="eUserType" value="Shipper">
                                         <div class="row">
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
-                                                    <label for="name" class="form-label">Farm Name</label>
-                                                    <input type="text" placeholder="Enter Farm Name" name="layovers_vFarmName"
+                                                    <label for="name" class="form-label">First Name *</label>
+                                                    <input type="text" name="shippers_vFirstName" placeholder="Enter First Name"
                                                         class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
-                                                    <label for="name" class="form-label">Owner Manager *</label>
-                                                    <input type="text" placeholder="Enter Owner Manager"
-                                                        name="layovers_vOwnerManager" class="form-control">
+                                                    <label for="name" class="form-label">Last Name *</label>
+                                                    <input type="text" name="shippers_vLastName" placeholder="Enter Last Name"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">Farm Name</label>
+                                                    <input type="text" name="shippers_vFarmName" placeholder="Enter Farm Name"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
                                                     <label for="name" class="form-label">Address *</label>
-                                                    <input type="text" placeholder="Enter Address" name="layovers_vAddress"
+                                                    <input type="text" name="shippers_vAddress" placeholder="Enter Address"
                                                         class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
                                                     <label for="name" class="form-label">City *</label>
-                                                    <input type="text" placeholder="Enter City" name="layovers_vCity"
+                                                    <input type="text" name="shippers_vCity" placeholder="Enter City"
                                                         class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
                                                     <label for="name" class="form-label">State *</label>
-                                                    <select class="form-select form-control" id="layovers_iState"
-                                                        name="layovers_iState">
-                                                        <option value="">
-                                                            Select State
-                                                        </option>
+                                                    <select class="form-select form-control js-example-basic-single"
+                                                        id="shippers_iState" name="shippers_iState">
+                                                        <option value="">Select State</option>
                                                                                                                                                                                     <option value="2722">Abakan</option>
                                                                                                                             <option value="3614">Alabamas</option>
                                                                                                                             <option value="3615">Alaska</option>
@@ -532,22 +538,22 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
                                                     <label for="name" class="form-label">Zip Code *</label>
-                                                    <input type="text" placeholder="Enter Zip Code" id="layovers_vZipCode"
-                                                        name="layovers_vZipCode" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-12 col-xl-6">
-                                                <div class="input-box">
-                                                    <label for="text" class="form-label">Cell Phone *</label>
-                                                    <input type="text" placeholder="Enter Cell Phone" id="layovers_vMobile"
-                                                        name="layovers_vMobile" class="form-control">
+                                                    <input type="text" id="shippers_vZipCode" name="shippers_vZipCode"
+                                                        placeholder="Enter Zip Code" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
                                                     <label for="email" class="form-label">Email Address *</label>
-                                                    <input type="email" placeholder="Enter Email Address" id="layovers_vEmail"
-                                                        name="layovers_vEmail" class="form-control">
+                                                    <input type="email" id="shippers_vEmail" name="shippers_vEmail"
+                                                        placeholder="Enter Email Address" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="text" class="form-label">Cell Phone  *</label>
+                                                    <input type="text" id="shippers_vMobile" name="shippers_vMobile"
+                                                        placeholder="Enter Cell Phone" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="login-form-heading">
@@ -556,39 +562,37 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
-                                                    <label for="exampleInputPassword1" class="form-label">Password *
-                                                        </label>
-                                                    <input type="password" id="layovers_password" class="form-control"
-                                                        name="layovers_vPassword"  placeholder="Enter Password">
+                                                    <label for="exampleInputPassword1" class="form-label">Password *</label>
+                                                    <input type="password" id="shippers_password" name="shippers_vPassword"
+                                                        class="form-control" placeholder="Enter Password">
                                                     <i class="toggle-password fa fa-fw fa-eye-slash"></i>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="input-box">
-                                                    <label for="confirm_password" class="form-label">Confirm Password *
-                                                        </label>
-                                                    <input type="password" id="layovers_confirm_password" class="form-control"
-                                                        name="layovers_vConfirmPassword"  placeholder="Enter Confirm Password">
+                                                    <label for="confirm_password" class="form-label">Confirm Password *</label>
+                                                    <input type="password" id="shippers_confirm_password"
+                                                        name="shippers_vConfirmPassword" class="form-control"
+                                                        placeholder="Enter Confirm Password">
                                                     <i class="toggle-password fa fa-fw fa-eye-slash"></i>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="input-box form-check forgate">
-                                                    <label class="form-check-label" for="exampleCheck1">I agree to Equine Dispatch
-                                                        </label>
+                                                    <label class="form-check-label" for="shipper_term_and_conditions">I agree to Equine Dispatch</label>
                                                     <a class="forgate-pass"
-                                                        href="terms-and-conditions"
-                                                        title="Terms of Service"target="blank">
-                                                         Terms of Service
+                                                        href="terms-and-conditions" target="blank"
+                                                        title="Terms of Service">
+                                                        Terms of Service
                                                     </a>&
                                                     <a class="forgate-pass" href="privacy-policy"
                                                         target="blank" title="Privacy Policy">
-                                                         Privacy Policy
+                                                        Privacy Policy
                                                     </a>
                                                     <input type="checkbox" class="form-check-input"
-                                                        id="layovers_terms_and_conditions" name="layovers_terms_and_conditions">
+                                                        id="shipper_terms_and_conditions" name="shipper_terms_and_conditions">
                                                 </div>
-                                                <div id="layovers_terms_and_conditions-error" class="mb-3"></div>
+                                                <div id="shipper_terms_and_conditions-error" class="mb-3"></div>
                                             </div>
                                             <div class="form-group captha mb-3">
                                                 <div class="g-recaptcha" id="rcaptcha"
@@ -596,17 +600,16 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                                                 <span id="captcha" style="color:red" /></span>
                                             </div>
                                             <div class="col-md-12">
-                                                <button type="Submit" class="btn main-btn layovers_submit"> Create Layover Provider account
-                                                    </button>
-                                                <a href="javascript:;" class="main-btn layovers_loading" style="display: none;">
+                                                <button class="btn main-btn shippers_submit">Create Shipper account</button>
+                                                <a href="javascript:;" class="main-btn shippers_loading" style="display: none;">
                                                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                                                     Submitting...
                                                 </a>
                                             </div>
                                             <p class="create-account">
                                                 Already have an account?
-                                                <a class="text" href="sign-in.html" title="Sign In Here">
-                                                    Sign In Here</a>
+                                                <a class="text" href="sign-in.html" title="Sign In Here">Sign In Here
+                                                    </a>
                                             </p>
                                         </div>
                                     </form>
@@ -1916,6 +1919,6 @@ Chagrin Falls, OH 44023</p>
     </script>
   </body>
 
-<!-- Mirrored from https://equinedispatch.com/sign-up?role=layover by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:48:39 GMT -->
+<!-- Mirrored from https://equinedispatch.com/sign-up by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:51:54 GMT -->
 </html>
 
