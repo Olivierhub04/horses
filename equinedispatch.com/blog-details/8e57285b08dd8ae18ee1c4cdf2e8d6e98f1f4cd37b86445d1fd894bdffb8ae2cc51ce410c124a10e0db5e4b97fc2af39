@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="EN">
+  
+<!-- Mirrored from https://equinedispatch.com/blog-details/8e57285b08dd8ae18ee1c4cdf2e8d6e98f1f4cd37b86445d1fd894bdffb8ae2cc51ce410c124a10e0db5e4b97fc2af39 by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLGNVP9W');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG8X9VST3D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VG8X9VST3D');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="csrf-token" content="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">
+
+    
+    
+
+        <title>Blog Details</title>
+    <meta name="keywords" content="Blog Details">
+    <meta name="description" content="Blog Details">
+    
+        <link rel="canonical" href="8e57285b08dd8ae18ee1c4cdf2e8d6e98f1f4cd37b86445d1fd894bdffb8ae2cc51ce410c124a10e0db5e4b97fc2af39"/>
+    
+  <link rel="shortcut icon" type="image/x-icon" href="../uploads/logo/favicon.png">
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../front/assets/css/bootstrap.min.css"  />
+<link rel="stylesheet" href="../front/assets/css/owl.carousel.min.css"  />
+<link rel="stylesheet" href="../front/assets/css/owl.theme.default.css"  />
+<link rel="stylesheet" href="../front/assets/css/main.css"  />
+<link rel="stylesheet" href="../front/assets/css/responsive.css"  />
+<link rel="stylesheet" href="../front/assets/css/toastr.css"  />
+<link rel="stylesheet" href="../front/assets/css/select2.min.css"  />
+      </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGNVP9W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <header>
+    <!-- top-header -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="top-nav-box">
+                <div class="top-nav-info">
+                    <p class="title">Call Us :<a class="mobile"
+                            href="phone:Happy Shipping!">
+                            Happy Shipping!</a></p>
+                    <p class="title">Mail To :<a class="mobile"
+                            href="mailto:EquineDispatch@gmail.com">
+                            EquineDispatch@gmail.com
+                        </a></p>
+                </div>
+                <div class="top-nav-info">
+                    <ul>
+                        <li class="title">
+                            Follow Us :
+                        </li>
+                                                <li>
+                            <a href="https://www.facebook.com/" target="blank"
+                                title="Follow on Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.instagram.com/" target="blank"
+                                title="Follow on Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.twitter.com/equine" target="blank"
+                                title="Follow on X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://linkedin.com/" target="blank"
+                                title="Follow on Linkdin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+    </nav>
+    <nav class="main-header navbar navbar-expand-lg">
+        <div class="container">
+            <div class="mobile-wrapper">
+                <button class="navbar-icon navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <a class="logo navbar-brand" href="../index.html">
+                    <img src="../uploads/logo/logo.png" alt="logo"
+                        width="170" height="60">
+                </a>
+            </div>
+            <div class="mobile-toggle-wrp ">
+                <div class="header-btn">
+                    <a href="../sign-in.html"
+                        class="btn">Sign In</a>
+                    <a href="../sign-up-select.html"
+                        class="main-btn">Sign Up</a>
+                </div>
+
+            </div>
+            <div class="offcanvas-head offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <ul class="nav-menu navbar-nav me-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../about-us.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../shippers.html">
+                                Shippers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../carriers">
+                                Carriers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../layovers">
+                                Layovers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../faq">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../contact-us">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-btn">
+                        <a href="../sign-in.html"
+                            class="btn">Sign In</a>
+                        <a href="../sign-up-select.html"
+                            class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- MObile menu -->
+
+<!-- Shippers -->
+
+
+<!-- Carrier -->
+
+
+
+<!-- Layovers -->
+
+        
+    
+    
+    <!-- hero section -->
+
+    <section class="hero-section bg-img" style="background-image:url(../front/assets/image/privacy-bg.png)">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="banner-title">
+                Layovers
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blog-details py-100">
+        <div class="container">
+            <div class>
+                <div class="blog-detail-img">
+                    <img src="../uploads/blog/3/1732880310.1722022951.layover.jpg"
+                        class="img-fluid" alt="Exploring Equine Dispatch" title="Layovers" width="30"
+                        height="30">
+                </div>
+                <div class="blog-detail-description">
+                    <h1 title="Layovers">
+                                                    Layovers
+                                            </h1>
+                                            <p><strong>Layovers: A Key Factor for Safe Horse Transport</strong></p><br />
+<p>How Equine Dispatch can help you find the best layover farms for your horses.</p><br />
+<p><strong>What are layovers and why are they important? </strong></p><br />
+<p>Layovers are stops that horse carriers make during long-distance trips to allow their horses to rest, stretch, eat, and sleep comfortably. Layovers are essential for the health and well-being of horses, as they prevent stress, dehydration, fatigue, and muscle stiffness that can result from prolonged confinement in a trailer. Layovers also benefit the carriers, as they can refresh themselves, check on their vehicles and equipment, and avoid driving when tired or in bad weather conditions. Layovers can also reduce the risk of accidents, injuries, and legal issues that can arise from transporting horses without adequate breaks.</p><br />
+<p><strong>How long and how often should layovers be? </strong></p><br />
+<p>The frequency and duration of layovers depend on several factors, such as the distance and duration of the trip, the number and condition of the horses, the weather and road conditions, and the availability and quality of layover facilities. However, some general guidelines are:</p><br />
+<p>&bull; A layover should be at least 4 hours long, preferably overnight, to allow the horses to rest and recover from the stress of travel.</p><br />
+<p>&bull; A layover should be scheduled every 8 to 12 hours of driving, or every 500 to 700 miles, whichever comes first.</p><br />
+<p>&bull; A layover should be planned in advance and booked with a reputable layover farm that can provide adequate facilities and care for the horses.</p><br />
+<p>&bull; A layover should be avoided in extreme temperatures, high altitudes, or areas with poor air quality, as these can affect the horses' respiratory and cardiovascular systems.</p><br />
+<p><strong>How can Equine Dispatch help you find the best layover farms? </strong></p><br />
+<p>Equine Dispatch is a platform that connects horse carriers with layover farms across the country. We understand the importance of layovers for safe horse transport, and we want to help you find the best layover farms for your horses.</p>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+            <footer class="bg-img" style="background-image: url(../front/assets/image/footer-bg.png)">
+        <div class="container">
+            <div class="footer-box py-100">
+                <div class="row g-4">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo">
+                            <a class="logo navbar-brand" href="../index.html">
+                                <img src="../uploads/logo/footer_logo.png" class="img-fluid" alt="footer-logo" width="160" height="57">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Company
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="../about-us.html">About Us</a></li>
+                                    <li class=""><a class="text" href="../privacy-policy">Privacy Policy</a></li>
+                                    <li class=""><a class="text" href="../terms-and-conditions">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Support
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="../faq">FAQ</a></li>
+                                    <li class=""><a class="text" href="../contact-us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Shippers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="../shippers.html">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="../shippers-reviews">Happy Shippers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Carriers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="../carriers">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="../carriers-reviews">Happy Carriers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-6 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                            Get in touch
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class="text">
+                                        <p class="text">160 E. Washington St. PO Box #23156
+Chagrin Falls, OH 44023</p>
+                                    </li>
+                                    <li class=""><a class="text" href="mailto:EquineDispatch@gmail.com">EquineDispatch@gmail.com</a></li>
+                                    <li class=""><a class="text" href="phone:Happy Shipping!">Happy Shipping!</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pb-100">
+                <div class="copy-right">
+                    <p class="title">
+                        © 2026  Equine Dispatch | All rights Reserved.<br>
+                    </p>
+                </div>
+                <div class="footer-icon">
+                    <div class="top-nav-info">
+                        <ul>
+                                                            <li>
+                                    <a href="https://www.facebook.com/" target="blank" title="Follow on Facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.instagram.com/" target="blank"  title="Follow on Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.twitter.com/equine" target="blank" title="Follow on X">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://linkedin.com/" target="blank" title="Follow on Linkdin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="../front/assets/js/jquery-3.6.4.min.js"></script>
+<script src="../front/assets/js/owl.carousel.min.js"></script>
+<script src="../front/assets/js/bootstrap.bundle.min.js"></script>
+<script src="../front/assets/js/custom.js"></script>
+<script src="../front/assets/js/toastr.min.js"></script>
+<script src="../front/assets/js/jquery.validate.js"></script>
+<script src="../front/assets/js/masking.js"></script>
+<script src="../front/assets/js/sweetalert2.js"></script>
+<script src="../front/assets/js/select2.min.js"></script>
+
+        <script>
+
+        $('.currencies').select2({
+            minimumResultsForSearch: 0
+        });
+        $('#currencies_2').select2({
+            minimumResultsForSearch: 0
+        });
+        $(document).ready(function () {
+            $(document).on('change', '#currencies_2, .currencies', function() {
+                var id = $(this).val();
+                $.ajax({
+                    url: "https://equinedispatch.com/front/shippers/currencies-action",
+                    type: "POST",
+                    headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+                    data: {id: id},
+                    success: function(response) {
+                        location.reload();
+                    }
+                });
+            });
+        });
+
+
+        $(document).ready(function() {
+            if(navigator.geolocation)
+            {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    sessionStorage.setItem('latitude', latitude);
+                    sessionStorage.setItem('longitude', longitude);
+                });
+            }
+        });
+    </script>
+
+
+
+
+    <!-- Pusher Notification code -->
+
+
+
+        <script>
+            // Pass the Pusher configuration values from Laravel to JavaScript
+            window.pusherConfig = {
+                key: "d988abaa8fdb70a7c66f",
+                cluster: "ap2",
+            };
+        </script>
+        <script src="../js/app.js"></script>
+    <script>
+        let eUserType = ""
+        let vCurrentUniqueCode = ""
+        let carrierName = ""
+
+            if (eUserType == 'Carrier')
+            {
+                window.Echo.channel('shipments').listen('.ShipmentPosted', (data) => {
+                const message = data.message.replace('#CARRIERS_NAME#', carrierName);
+                console.log('Received ShipmentPosted event:', data);
+                    new Notification('New Shipment', {
+                        body: message
+                    });
+                })
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidAccepted').listen('.BidAccepted', (data) => {
+                    console.log('Received BidAccepted event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Accepted', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Accepted', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidRejected').listen('.BidRejected', (data) => {
+                    console.log('Received BidRejected event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Rejected', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Rejected', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment cancelled notification
+                window.Echo.channel('ShipmentCancelled').listen('.ShipmentCancelled', (data) => {
+                    console.log('Received ShipmentCancelled event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Cancelled', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Cancelled', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+            }
+
+            if(eUserType == "Shipper")
+            {
+                //added Bid notification
+                window.Echo.channel(`bids`).listen('.BidAdded', (data) =>
+                {
+                    console.log('Received BidAdded event:', data.vUniqueCode);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode)
+                    {
+                        if (Notification.permission !== 'granted')
+                        {
+                            Notification.requestPermission()
+                            .then(permission =>
+                            {
+                                if (permission === 'granted')
+                                {
+                                    console.log('Received BidAdded event:', data);
+
+                                    new Notification('New Bid', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else
+                        {
+                            console.log('Received BidAdded event:', data);
+
+                            new Notification('New Bid', {
+                                body: data.message
+                            });
+                        }
+                    }
+                });
+
+               // Shipment picked up notification
+                window.Echo.channel('shipmentPickedUp').listen('.ShipmentPickedUp', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment delivered up notification
+                window.Echo.channel('ShipmentDelivered').listen('.ShipmentDelivered', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+            }
+
+            // Request Notification Permission
+            if (Notification.permission !== "granted") {
+                Notification.requestPermission();
+            }
+
+            // $(document).on('click', '.account-delete-btn', function(){
+            //     var vUniqueCode = $(this).data('unique-code');
+            //     var alertMsg = $(this).data('alert-msg');
+            //     var statusType = $(this).data('status-type');
+            //     var url = 'https://equinedispatch.com/delete-account/:vUniqueCode'
+            //         .replace(':vUniqueCode', vUniqueCode);
+            //     Swal.fire({
+            //         title: 'Are you sure?',
+            //         text: alertMsg,
+            //         icon: 'warning',
+            //         showCancelButton: true,
+            //         cancelButtonColor: '#525252',
+            //         confirmButtonColor: "#B7973E",
+            //         confirmButtonText: 'Yes!'
+            //     }).then((result) => {
+            //         if (result.isConfirmed) {
+            //             $.ajax({
+            //                 url: url,
+            //                 type: "POST",
+            //                 headers: {
+            //                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            //                 },
+            //                 data: {},
+            //                 success: function (response) {
+            //                     toastr.success(response.message);
+            //                     setTimeout(function() {
+            //                         window.location.href = "https://equinedispatch.com/sign-up";
+            //                     }, 1500);
+            //                 },
+            //             });
+            //         }
+            //     });
+            // });
+
+            $(document).on('click', '.account-delete-btn', function() {
+                var $button = $(this);
+                var vUniqueCode = $(this).data('unique-code');
+                var alertTitle = $(this).data('alert-title');
+                var alertMsg = $(this).data('alert-msg');
+                var statusType = $button.data('status-type');
+                var url = '../delete-account/_vUniqueCode'
+                            .replace(':vUniqueCode', vUniqueCode);
+
+                Swal.fire({
+                    title: alertTitle,
+                    text: alertMsg,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    cancelButtonColor: '#525252',
+                    confirmButtonColor: "#B7973E",
+                    confirmButtonText: 'Yes!',
+                    preConfirm: () => {
+                        Swal.getConfirmButton().style.display = 'none';
+                        Swal.getCancelButton().style.display = 'none';
+                        const loaderButtonHtml = `
+                            <button type="button" class="swal2-confirm swal2-styled swal2-custom-loader-btn" aria-label="" style="background-color: rgb(183, 151, 62);">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                Submitting...
+                            </button>
+                        `;
+                        $(Swal.getPopup()).find('.swal2-actions').append(loaderButtonHtml);
+                        const $loaderButton = $('.swal2-confirm swal2-styled swal2-custom-loader-btn');
+                        $loaderButton.show();
+
+                        return new Promise((resolve, reject) => {
+                            setTimeout(function() {
+                                $.ajax({
+                                    url: url,
+                                    type: "POST",
+                                    headers: {
+                                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                    },
+                                    data: {},
+                                    success: function (response) {
+                                        toastr.success(response.message);
+
+                                        // Update Swal alert on success
+                                        Swal.update({
+                                            title: 'Success!',
+                                            text: 'Your account has been successfully deleted.',
+                                            icon: 'success',
+                                            showCancelButton: false,
+                                            confirmButtonText: 'OK'
+                                        });
+
+                                        setTimeout(function() {
+                                            window.location.href = "../sign-up";
+                                        }, 3000);
+                                    },
+                                    error: function() {
+                                        toastr.error('An error occurred. Please try again.');
+                                        reject();
+                                    },
+                                    complete: function() {
+                                        $('.swal2-custom-loader-btn').remove();
+                                    }
+                                });
+                            }, 1000);
+                        });
+                    }
+                });
+            });
+
+    </script>
+  </body>
+
+<!-- Mirrored from https://equinedispatch.com/blog-details/8e57285b08dd8ae18ee1c4cdf2e8d6e98f1f4cd37b86445d1fd894bdffb8ae2cc51ce410c124a10e0db5e4b97fc2af39 by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:52 GMT -->
+</html>
+

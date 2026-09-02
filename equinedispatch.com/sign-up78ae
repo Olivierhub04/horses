@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html lang="EN">
+  
+<!-- Mirrored from https://equinedispatch.com/sign-up?role=carrier by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLGNVP9W');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG8X9VST3D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VG8X9VST3D');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="csrf-token" content="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">
+
+    
+    
+
+        <title>Sign Up</title>
+    <meta name="keywords" content="Sign Up">
+    <meta name="description" content="Sign Up">
+    
+        <link rel="canonical" href="sign-up"/>
+    
+  <link rel="shortcut icon" type="image/x-icon" href="uploads/logo/favicon.png">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="front/assets/css/bootstrap.min.css"  />
+<link rel="stylesheet" href="front/assets/css/owl.carousel.min.css"  />
+<link rel="stylesheet" href="front/assets/css/owl.theme.default.css"  />
+<link rel="stylesheet" href="front/assets/css/main.css"  />
+<link rel="stylesheet" href="front/assets/css/responsive.css"  />
+<link rel="stylesheet" href="front/assets/css/toastr.css"  />
+<link rel="stylesheet" href="front/assets/css/select2.min.css"  />
+        <style>
+        .signup-new-wrapper {
+            min-height: 80vh;
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+
+        .signup-new-container {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+            border: 1px solid #eef2f5;
+        }
+
+        .role-cards-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .role-card {
+            flex: 1;
+            border: 2px solid #eef2f5;
+            border-radius: 12px;
+            padding: 24px;
+            cursor: pointer;
+            background: #fff;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            text-decoration: none !important;
+        }
+
+        .role-card.active {
+            border-color: #B7973E;
+            box-shadow: 0 8px 25px rgba(183, 151, 62, 0.12);
+            cursor: default;
+        }
+
+        .role-card:hover:not(.active) {
+            border-color: #B7973E;
+        }
+
+        .role-card .card-header-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 12px;
+        }
+
+        .role-card .card-icon-circle {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: #f1f3f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #495057;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .role-card.active .card-icon-circle {
+            background: #B7973E;
+            color: #fff;
+        }
+
+        .role-card .card-title-text h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0d1727;
+            margin: 0;
+        }
+
+        .role-card .card-title-text span {
+            font-size: 13px;
+            color: #6c757d;
+            display: block;
+            font-weight: 500;
+        }
+
+        .role-card .card-description-text {
+            font-size: 13px;
+            color: #6c757d;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* Checkbox Alignment UI Fix */
+        .signup-new-container .form-check {
+            display: flex !important;
+            align-items: flex-start !important;
+            justify-content: flex-start !important;
+            gap: 10px;
+            padding-left: 0 !important;
+        }
+
+        .signup-new-container .form-check input[type="checkbox"] {
+            position: static !important;
+            margin: 4px 0 0 0 !important;
+            width: 18px !important;
+            height: 18px !important;
+            flex-shrink: 0;
+        }
+
+        .signup-new-container .form-check.forgate {
+            flex-wrap: wrap;
+            align-items: center !important;
+        }
+
+        .signup-new-container .form-check.forgate input[type="checkbox"] {
+            order: -1 !important;
+            margin-top: 0 !important;
+        }
+
+        .signup-new-container .form-check label {
+            margin: 0 !important;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .signup-new-container .form-check a {
+            margin: 0 !important;
+            padding: 0 !important;
+            font-weight: 600;
+            color: #B7973E !important;
+            text-decoration: none !important;
+        }
+
+        .signup-new-container .form-check a:hover {
+            text-decoration: underline !important;
+        }
+
+        /* Form spacing adjustments */
+        .signup-new-container .login-form {
+            padding-top: 10px;
+        }
+
+        .signup-new-container .login-form-heading {
+            text-align: left !important;
+            margin-bottom: 25px;
+        }
+
+        .signup-new-container .login-form-heading .title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 991px) {
+            .role-cards-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGNVP9W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <header>
+    <!-- top-header -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="top-nav-box">
+                <div class="top-nav-info">
+                    <p class="title">Call Us :<a class="mobile"
+                            href="phone:Happy Shipping!">
+                            Happy Shipping!</a></p>
+                    <p class="title">Mail To :<a class="mobile"
+                            href="mailto:EquineDispatch@gmail.com">
+                            EquineDispatch@gmail.com
+                        </a></p>
+                </div>
+                <div class="top-nav-info">
+                    <ul>
+                        <li class="title">
+                            Follow Us :
+                        </li>
+                                                <li>
+                            <a href="https://www.facebook.com/" target="blank"
+                                title="Follow on Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.instagram.com/" target="blank"
+                                title="Follow on Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.twitter.com/equine" target="blank"
+                                title="Follow on X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://linkedin.com/" target="blank"
+                                title="Follow on Linkdin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+    </nav>
+    <nav class="main-header navbar navbar-expand-lg">
+        <div class="container">
+            <div class="mobile-wrapper">
+                <button class="navbar-icon navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <a class="logo navbar-brand" href="index.html">
+                    <img src="uploads/logo/logo.png" alt="logo"
+                        width="170" height="60">
+                </a>
+            </div>
+            <div class="mobile-toggle-wrp ">
+                <div class="header-btn">
+                    <a href="sign-in.html"
+                        class="btn">Sign In</a>
+                    <a href="sign-up-select.html"
+                        class="main-btn">Sign Up</a>
+                </div>
+
+            </div>
+            <div class="offcanvas-head offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <ul class="nav-menu navbar-nav me-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about-us.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="shippers.html">
+                                Shippers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="carriers">
+                                Carriers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="layovers">
+                                Layovers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="faq">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="contact-us">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-btn">
+                        <a href="sign-in.html"
+                            class="btn">Sign In</a>
+                        <a href="sign-up-select.html"
+                            class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- MObile menu -->
+
+<!-- Shippers -->
+
+
+<!-- Carrier -->
+
+
+
+<!-- Layovers -->
+
+        
+        <div class="signup-new-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-xl-11">
+                    <div class="signup-new-container">
+                        <!-- Back Link -->
+                        <div class="mb-4">
+                            <a href="index.html"
+                                style="color: #666; text-decoration: none; font-weight: 500; font-size: 14px;">
+                                <i class="fa-solid fa-arrow-left-long me-2"></i> Back
+                            </a>
+                        </div>
+
+                        <!-- Headings -->
+                        <div class="signup-new-header mb-4">
+                            <h1 style="font-size: 32px; font-weight: 800; color: #B7973E; margin-bottom: 10px;">Create your account
+                                </h1>
+                            <p style="font-size: 15px; color: #6c757d; margin-bottom: 25px;">
+                                First, tell us how you&#039;ll use Equine Dispatch. You can change this later in account settings.
+                            </p>
+                        </div>
+
+                        <!-- Cards Selection -->
+                        <div class="role-cards-container">
+                            <a href="sign-upeeca?role=shipper"
+                                class="role-card " data-target="shipper">
+                                <div class="card-header-info">
+                                    <div class="card-icon-circle">
+                                        <i class="fa-solid fa-box"></i>
+                                    </div>
+                                    <div class="card-title-text">
+                                        <h4>Shipper</h4>
+                                        <span>I have a horse to ship</span>
+                                    </div>
+                                </div>
+                                <p class="card-description-text">
+                                   Choose this if you own or manage a horse and need to find a transporter to move it.You&#039;ll post shipments and receive quotes from carriers.
+                                </p>
+                            </a>
+
+                            <a href="sign-up78ae?role=carrier"
+                                class="role-card  active " data-target="carrier">
+                                <div class="card-header-info">
+                                    <div class="card-icon-circle">
+                                        <i class="fa-solid fa-truck-moving"></i>
+                                    </div>
+                                    <div class="card-title-text">
+                                        <h4>Carrier</h4>
+                                        <span>I&#039;m looking for horses to haul</span>
+                                    </div>
+                                </div>
+                                <p class="card-description-text">
+                                    Choose this if you operate a truck/trailer and haul horses for others. You&#039;ll browse available shipments and submit quotes to shippers.
+                                </p>
+                            </a>
+
+                            <a href="sign-up056f?role=layover"
+                                class="role-card " data-target="layover">
+                                <div class="card-header-info">
+                                    <div class="card-icon-circle">
+                                        <i class="fa-solid fa-house"></i>
+                                    </div>
+                                    <div class="card-title-text">
+                                        <h4>Layover Provider</h4>
+                                        <span>I offer overnight boarding for horses in transit</span>
+                                    </div>
+                                </div>
+                                <p class="card-description-text">
+                                    Choose this if you operate a facility that can board horses overnight during long-distance transport. You&#039;ll receive bookings from carriers and shippers.
+                                </p>
+                            </a>
+                        </div>
+
+                                                    <div class="carrier-form-wrapper">
+                                <div class="login-form mt-0">
+                                    <form class="login-form" method="post" action="https://equinedispatch.com/sign-up-store/store" name="frm"
+                                        method="post" enctype="multipart/form-data" id="carriers_sign_up_validation"
+                                        autocomplete="off">
+                                        <input type="hidden" name="_token" value="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">                                        <input type="hidden" id="eUserType" name="eUserType" value="Carrier">
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">Company Name</label>
+                                                    <input type="text" placeholder="Enter Company Name"
+                                                        name="carriers_vCompanyName" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">Owner Manager *</label>
+                                                    <input type="text" placeholder="Enter Owner Manager"
+                                                        name="carriers_vOwnerManager" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">Address *</label>
+                                                    <input type="text" placeholder="Enter Address" name="carriers_vAddress"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">City *</label>
+                                                    <input type="text" placeholder="Enter City" name="carriers_vCity"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">State *</label>
+                                                    <select class="form-select form-control" name="carriers_iState"
+                                                        id="carriers_iState">
+                                                        <option value="">
+                                                            Select State
+                                                        </option>
+                                                                                                                                                                                    <option value="2722">Abakan</option>
+                                                                                                                            <option value="3614">Alabamas</option>
+                                                                                                                            <option value="3615">Alaska</option>
+                                                                                                                            <option value="3616">American Samoa</option>
+                                                                                                                            <option value="3617">Arizona</option>
+                                                                                                                            <option value="3618">Arkansas</option>
+                                                                                                                            <option value="3625">California</option>
+                                                                                                                            <option value="3626">Colorado</option>
+                                                                                                                            <option value="3627">Connecticut</option>
+                                                                                                                            <option value="3628">Delaware</option>
+                                                                                                                            <option value="3629">District of Columbia</option>
+                                                                                                                            <option value="3631">Florida</option>
+                                                                                                                            <option value="3632">Georgia</option>
+                                                                                                                            <option value="3634">Hawaii</option>
+                                                                                                                            <option value="3635">Idaho</option>
+                                                                                                                            <option value="3636">Illinois</option>
+                                                                                                                            <option value="3637">Indiana</option>
+                                                                                                                            <option value="3638">Iowa</option>
+                                                                                                                            <option value="3639">Kansas</option>
+                                                                                                                            <option value="3640">Kentucky</option>
+                                                                                                                            <option value="3641">Louisiana</option>
+                                                                                                                            <option value="3642">Maine</option>
+                                                                                                                            <option value="3644">Maryland</option>
+                                                                                                                            <option value="3645">Massachusetts</option>
+                                                                                                                            <option value="3646">Michigan</option>
+                                                                                                                            <option value="3647">Minnesota</option>
+                                                                                                                            <option value="3648">Mississippi</option>
+                                                                                                                            <option value="3649">Missouri</option>
+                                                                                                                            <option value="3650">Montana</option>
+                                                                                                                            <option value="3651">Nebraska</option>
+                                                                                                                            <option value="3652">Nevada</option>
+                                                                                                                            <option value="3653">New Hampshire</option>
+                                                                                                                            <option value="3654">New Jersey</option>
+                                                                                                                            <option value="3655">New Mexico</option>
+                                                                                                                            <option value="3656">New York</option>
+                                                                                                                            <option value="3657">North Carolina</option>
+                                                                                                                            <option value="3658">North Dakota</option>
+                                                                                                                            <option value="3660">Ohio</option>
+                                                                                                                            <option value="3661">Oklahoma</option>
+                                                                                                                            <option value="3662">Oregon</option>
+                                                                                                                            <option value="3664">Pennsylvania</option>
+                                                                                                                            <option value="3666">Rhode Island</option>
+                                                                                                                            <option value="3667">South Carolina</option>
+                                                                                                                            <option value="3668">South Dakota</option>
+                                                                                                                            <option value="3669">Tennessee</option>
+                                                                                                                            <option value="3670">Texas</option>
+                                                                                                                            <option value="3671">Utah</option>
+                                                                                                                            <option value="3672">Vermont</option>
+                                                                                                                            <option value="3673">Virgin Islands</option>
+                                                                                                                            <option value="3674">Virginia</option>
+                                                                                                                            <option value="3675">Washington</option>
+                                                                                                                            <option value="3676">West Virginia</option>
+                                                                                                                            <option value="3677">Wisconsin</option>
+                                                                                                                            <option value="3678">Wyoming</option>
+                                                                                                                            <option value="602">Alberta</option>
+                                                                                                                            <option value="603">British Columbia</option>
+                                                                                                                            <option value="604">Manitoba</option>
+                                                                                                                            <option value="605">New Brunswick</option>
+                                                                                                                            <option value="606">Newfoundland and Labrador</option>
+                                                                                                                            <option value="607">Northwest Territories</option>
+                                                                                                                            <option value="608">Nova Scotia</option>
+                                                                                                                            <option value="609">Nunavut</option>
+                                                                                                                            <option value="610">Ontario</option>
+                                                                                                                            <option value="611">Prince Edward Island</option>
+                                                                                                                            <option value="612">Quebec</option>
+                                                                                                                            <option value="613">Saskatchewan</option>
+                                                                                                                            <option value="614">Yukon Territory</option>
+                                                                                                                                                                        </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">Zip Code *</label>
+                                                    <input type="text" placeholder="Enter Zip Code" id="carriers_vZipCode"
+                                                        name="carriers_vZipCode" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="email" class="form-label">Email Address *</label>
+                                                    <input type="email" id="carriers_vEmail" placeholder="Enter Email Address"
+                                                        name="carriers_vEmail" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="url" class="form-label">Website URL</label>
+                                                    <input type="url" placeholder="Enter Website URL"
+                                                        name="carriers_vWebsiteUrl" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="login-form-heading">
+                                                <p class="ac-detail">
+                                                    Contact Information</p>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="text" class="form-label">Dispatch Contact *</label>
+                                                    <input type="text" placeholder="Enter Dispatch Contact"
+                                                        id="carriers_vDispatchContact" name="carriers_vDispatchContact"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="text" class="form-label">Dispatch Cell Phone</label>
+                                                    <input type="text" placeholder="Enter Dispatch Cell Phone"
+                                                        id="carriers_vDispatchCellPhone" name="carriers_vDispatchCellPhone"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="text" class="form-label">Secondary Phone</label>
+                                                    <input type="text" placeholder="Enter Secondary Phone"
+                                                        id="carriers_vSecondaryPhoneNumber"
+                                                        name="carriers_vSecondaryPhoneNumber" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="name" class="form-label">How did you hear about us</label>
+                                                    <select class="form-select form-control" id="carriers_vReferralSource"
+                                                        name="carriers_vReferralSource">
+                                                        <option value="">
+                                                            Select Referral Source
+                                                        </option>
+                                                                                                                                                                                    <option value="Article">Article</option>
+                                                                                                                            <option value="Trade Show">Trade Show</option>
+                                                                                                                            <option value="Letter/Postcard">Letter/Postcard</option>
+                                                                                                                            <option value="Email Newsletter">Email Newsletter</option>
+                                                                                                                            <option value="Referral Code">Referral Code</option>
+                                                                                                                            <option value="Referred by">Referred by</option>
+                                                                                                                            <option value="Other">Other</option>
+                                                                                                                                                                        </select>
+                                                </div>
+                                            </div>
+                                            <div class="login-form-heading">
+                                                <p class="ac-detail">
+                                                    Create Password</p>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="exampleInputPassword1" class="form-label">Password *
+                                                        </label>
+                                                    <input type="password" id="carriers_password" class="form-control"
+                                                        name="carriers_vPassword" placeholder="Enter Password">
+                                                    <i class="toggle-password fa fa-fw fa-eye-slash"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                                <div class="input-box">
+                                                    <label for="confirm_password" class="form-label">Confirm Password *
+                                                        </label>
+                                                    <input type="password" id="carriers_confirm_password" class="form-control"
+                                                        name="carriers_vConfirmPassword" placeholder="Enter Confirm Password">
+                                                    <i class="toggle-password fa fa-fw fa-eye-slash"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="input-box form-check forgate">
+                                                    <label class="form-check-label" for="carriers_terms_and_conditions">I agree to Equine Dispatch
+                                                        </label>
+                                                    <a class="forgate-pass"
+                                                        href="terms-and-conditions" target="blank"
+                                                        title="Terms of Service">
+                                                        Terms of Service
+                                                    </a>&
+                                                    <a class="forgate-pass" href="privacy-policy"
+                                                        target="blank"  title="Privacy Policy">
+                                                        Privacy Policy
+                                                    </a>
+                                                    <input type="checkbox" class="form-check-input"
+                                                        id="carriers_terms_and_conditions" name="carriers_terms_and_conditions">
+                                                </div>
+                                                <div id="carriers_terms_and_conditions-error" class="mb-3">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="input-box form-check">
+                                                    <input type="checkbox" class="form-check-input" id="carriers_second_terms"
+                                                        name="carriers_second_terms">
+                                                    <label class="form-check-label" for="carriers_second_terms"
+                                                        style="display: flex;">I hereby acknowledge that I am legally authorized to transport horses within the United States, in full compliance with all applicable local, state, and federal laws and regulations. Furthermore, I agree to maintain good legal standing to operate on this platform. I also confirm that I possess the necessary insurance coverage required for the transportation of horses, ensuring compliance with all relevant legal and regulatory standards.</label>
+
+                                                </div>
+                                                <div id="carriers_second_terms-error" class="mb-3"></div>
+                                            </div>
+                                            <div class="form-group captha mb-3">
+                                                <div class="g-recaptcha" id="rcaptcha"
+                                                    data-sitekey="6LdKZZYqAAAAAK4wlS-ao82gPConejefhRZk8KnJ"></div>
+                                                <span id="captcha" style="color:red" /></span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="Submit" class="btn main-btn carriers_submit">Create Carrier account
+                                                    </button>
+                                                <a href="javascript:;" class="main-btn carriers_loading" style="display: none;">
+                                                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                                    Submitting...
+                                                </a>
+                                            </div>
+                                            <p class="create-account">
+                                               Already have an account?
+                                                <a class="text" href="sign-in.html" title="Sign In Here">Sign In Here</a>
+
+                                            </p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <footer class="bg-img" style="background-image: url(front/assets/image/footer-bg.png)">
+        <div class="container">
+            <div class="footer-box py-100">
+                <div class="row g-4">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo">
+                            <a class="logo navbar-brand" href="index.html">
+                                <img src="uploads/logo/footer_logo.png" class="img-fluid" alt="footer-logo" width="160" height="57">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Company
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="about-us.html">About Us</a></li>
+                                    <li class=""><a class="text" href="privacy-policy">Privacy Policy</a></li>
+                                    <li class=""><a class="text" href="terms-and-conditions">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Support
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="faq">FAQ</a></li>
+                                    <li class=""><a class="text" href="contact-us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Shippers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="shippers.html">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="shippers-reviews">Happy Shippers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Carriers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="carriers">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="carriers-reviews">Happy Carriers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-6 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                            Get in touch
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class="text">
+                                        <p class="text">160 E. Washington St. PO Box #23156
+Chagrin Falls, OH 44023</p>
+                                    </li>
+                                    <li class=""><a class="text" href="mailto:EquineDispatch@gmail.com">EquineDispatch@gmail.com</a></li>
+                                    <li class=""><a class="text" href="phone:Happy Shipping!">Happy Shipping!</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pb-100">
+                <div class="copy-right">
+                    <p class="title">
+                        © 2026  Equine Dispatch | All rights Reserved.<br>
+                    </p>
+                </div>
+                <div class="footer-icon">
+                    <div class="top-nav-info">
+                        <ul>
+                                                            <li>
+                                    <a href="https://www.facebook.com/" target="blank" title="Follow on Facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.instagram.com/" target="blank"  title="Follow on Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.twitter.com/equine" target="blank" title="Follow on X">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://linkedin.com/" target="blank" title="Follow on Linkdin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="front/assets/js/jquery-3.6.4.min.js"></script>
+<script src="front/assets/js/owl.carousel.min.js"></script>
+<script src="front/assets/js/bootstrap.bundle.min.js"></script>
+<script src="front/assets/js/custom.js"></script>
+<script src="front/assets/js/toastr.min.js"></script>
+<script src="front/assets/js/jquery.validate.js"></script>
+<script src="front/assets/js/masking.js"></script>
+<script src="front/assets/js/sweetalert2.js"></script>
+<script src="front/assets/js/select2.min.js"></script>
+
+        <script src="../www.google.com/recaptcha/api.js" async defer></script>
+
+    <script src="front/assets/js/select2.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#carriers_vReferralSource').select2({
+                minimumResultsForSearch: 0
+            });
+            $('#carriers_iState').select2({
+                minimumResultsForSearch: 0
+            });
+            $('#shippers_iState').select2({
+                minimumResultsForSearch: 0
+            });
+            $('#layovers_iState').select2({
+                minimumResultsForSearch: 0
+            });
+        });
+
+        $(document).ready(function () {
+
+            //General Custom method to validate only space input
+            $.validator.addMethod("notAllowedSpaces", function(value, element) {
+                return this.optional(element) || /\S/.test(value);
+            }, "This field cannot contain only spaces");
+
+            //Shippers phone number masking
+            $('#shippers_vMobile').mask('(999) 999-9999').focus(function() {
+                    setTimeout(() => this.setSelectionRange(0, 0), 0);
+            });
+
+            //Shippers phone number curser set to start on click
+            $('#shippers_vMobile').on('click focus', function() {
+                if ($('#shippers_vMobile').val() == "(___) ___-____") {
+                    this.setSelectionRange(0, 0);
+                }
+            });
+
+            $.validator.addMethod("zipcodeValidation", function(value, element) {
+                return this.optional(element) ||
+                    /^(\d{6}|\d{5}(-\d{4})?|[A-Za-z]\d[A-Za-z]\s?\d[A-Za-z]\d)$/i.test(value);
+            }, "Please enter a valid zip code");
+
+            // Shippers Confirm password to prevent from paste password
+            $('#shippers_confirm_password').on('paste', function(e) {
+                e.preventDefault();
+            });
+
+            //Shippers Custom method to validate password confirmation
+            $.validator.addMethod("shipperPasswordMatch", function(value, element) {
+                return value === $("#shippers_password").val();
+            }, "Passwords does not match");
+
+            //Shippers Custom method to validate strong password
+            $.validator.addMethod("shipperCustomPassword", function(value, element) {
+                return this.optional(element) || /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[^ ]+$/.test(value);
+            }, "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.");
+
+            //Shippers Custom method to validate Email address
+            $.validator.addMethod("shipperCustomEmail", function(value, element) {
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return this.optional(element) || emailRegex.test(value);
+            }, "Please enter a valid email address");
+
+            //Shippers Custom method to validate unique cell phone
+            $.validator.addMethod("shippers_cell_phone_available", function(value, element) {
+                var is_valid = false;
+                $.ajax({
+                    url: "https://equinedispatch.com/sign-up/check_unique_phone",
+                    type: "POST",
+                    dataType: "json",
+                    async: false,
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data: {
+                        vDispatchContact: jQuery.trim($("#shippers_vMobile").val())
+                    },
+                    success: function(data) {
+                        is_valid = data.success === 'false';
+                    }
+                });
+
+                return is_valid;
+            },);
+
+            //Shippers Initialize  form validation
+            $("#shippers_sign_up_validation").validate({
+                rules: {
+                    'shippers_vFirstName': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'shippers_vLastName': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'shippers_vFarmName' : {
+                        notAllowedSpaces:true,
+                    },
+                    'shippers_vAddress': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'shippers_vCity': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'shippers_iState': {
+                        required: true,
+                    },
+                    'shippers_vZipCode': {
+                        required: true,
+                        zipcodeValidation: true,
+                    },
+                    'shippers_vMobile': {
+                        required: true,
+                        minlength: 10,
+                        shippers_cell_phone_available : true,
+                    },
+                    'shippers_vEmail': {
+                        required: true,
+                        notAllowedSpaces: true,
+                        email: true,
+                        email_available:true,
+                        shipperCustomEmail:true,
+                    },
+                    'shippers_vPassword': {
+                        required: true,
+                        minlength: 8,
+                        notAllowedSpaces:true,
+                        shipperCustomPassword : true,
+                    },
+                    'shippers_vConfirmPassword': {
+                        required: true,
+                        shipperPasswordMatch: true,
+                        notAllowedSpaces:true,
+                        shipperCustomPassword :true,
+                    },
+                    'shipper_terms_and_conditions': {
+                        required: true,
+                    },
+                },
+                messages: {
+                    'shippers_vFirstName': {
+                        required: "Please enter first name",
+                        notAllowedSpaces : "Please enter first name"
+                    },
+                    'shippers_vLastName': {
+                        required: "Please enter last name",
+                        notAllowedSpaces : "Please enter last name"
+                    },
+                    'shippers_vFarmName':{
+                        notAllowedSpaces : "Farm name cannot contain only spaces"
+                    },
+                    'shippers_vAddress': {
+                        required: "Please enter address",
+                        notAllowedSpaces : "Please enter address"
+                    },
+                    'shippers_vCity': {
+                        required: "Please enter city",
+                        notAllowedSpaces : "Please enter city"
+                    },
+                    'shippers_iState': {
+                        required: "Please select state",
+                    },
+                    'shippers_vZipCode': {
+                        required: "Please enter zip code",
+                        zipcodeValidation: "Please enter a valid zip code",
+                    },
+                    'shippers_vMobile': {
+                        required: "Please enter cell phone",
+                        minlength: "Please enter exactly 10 digits",
+                        shippers_cell_phone_available : "This number is already in use, please enter a different number.",
+                    },
+                    'shippers_vEmail': {
+                        required: "Please enter email address",
+                        notAllowedSpaces : "Please enter email address",
+                        email_available: "This email is already in use, please enter a different email",
+                        shipperCustomEmail : "Please enter a valid email address",
+                    },
+                    'shippers_vPassword': {
+                        required: "Please enter password",
+                        minlength: "Please enter at least 8 characters",
+                        notAllowedSpaces : "Please enter password",
+                        shipperCustomPassword : "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.",
+                    },
+                    'shippers_vConfirmPassword': {
+                        required: "Please enter confirm password",
+                        shipperPasswordMatch: "Password does not match",
+                        notAllowedSpaces : "Please enter confirm password",
+                        shipperCustomPassword : "Password must include at least one capital letter, one number, and one special character",
+                    },
+                    'shipper_terms_and_conditions': {
+                        required: "You must agree to the Terms of Service and Privacy Policy",
+                    },
+                },
+                errorPlacement: function (error, element) {
+                    var name = element.attr('name');
+                    $(error).css({
+                        'color': '#FF0000'
+                    });
+                    if(element.is('select')) {
+                        error.insertAfter(element.next('.select2'));
+                    }else if (element.attr("name") === "shipper_terms_and_conditions") {
+                        error.appendTo("#shipper_terms_and_conditions-error");
+                    } else if (element.attr('type') == 'file') {
+                        error.insertAfter($(element).closest('.browse-btn-div'));
+                    } else {
+                        error.insertAfter($('[name="' + name + '"]'));
+                    }
+                },
+                submitHandler: function (form) {
+                    $.ajax({
+                        type: $(form).attr('method'),
+                        url: $(form).attr('action'),
+                        data: $(form).serialize(),
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        success: function (response) {
+                            $('.shippers_loading').hide();
+                            $('.shippers_submit').show();
+                            if (response.status === 'success') {
+                                $(form)[0].reset();
+                                grecaptcha.reset();
+                                toastr.success("Your account has been created successfully. Please check your email and activate your account");
+                                setTimeout(function() {
+                                    window.location.href = "sign-in.html";
+                                }, 2000);
+                            } else {
+                                toastr.error(response.message);
+                            }
+                        },
+
+                    });
+                    return false;
+                }
+            });
+
+            //Shipper Handle form submission button click
+            $(document).on('click', '.shippers_submit', function (event) {
+                event.preventDefault();
+                if ($("#shippers_sign_up_validation").valid()) {
+                    $('.shippers_submit').hide();
+                    $('.shippers_loading').show();
+                    $("#shippers_sign_up_validation").submit();
+                }
+            });
+
+            //Shipper check unique email
+            $.validator.addMethod("email_available", function(value, element) {
+                var is_valid = false;
+                $.ajax({
+                    url: "https://equinedispatch.com/sign-up/check_unique_email",
+                    type: "POST",
+                    dataType: "json",
+                    async: false,
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data: {
+                        vEmail: jQuery.trim($("#shippers_vEmail").val())
+                    },
+                    success: function(data) {
+                        is_valid = data.success === 'false';
+                    }
+                });
+
+                return is_valid;
+            },);
+
+            // Carrier phone number masking
+            $('#carriers_vDispatchContact').mask('(999) 999-9999');
+            $('#carriers_vDispatchCellPhone').mask('(999) 999-9999');
+            $('#carriers_vSecondaryPhoneNumber').mask('(999) 999-9999');
+
+            //Carriers phone number curser set to start on click
+            $('#carriers_vDispatchContact').on('click focus', function() {
+                if ($('#carriers_vDispatchContact').val() == "(___) ___-____") {
+                    this.setSelectionRange(0, 0);
+                }
+            });
+            $('#carriers_vDispatchCellPhone').on('click focus', function() {
+                if ($('#carriers_vDispatchCellPhone').val() == "(___) ___-____") {
+                    this.setSelectionRange(0, 0);
+                }
+            });
+            $('#carriers_vSecondaryPhoneNumber').on('click focus', function() {
+                if ($('#carriers_vSecondaryPhoneNumber').val() == "(___) ___-____") {
+                    this.setSelectionRange(0, 0);
+                }
+            });
+
+            // Carrier Confirm password to prevent from paste password
+            $('#carriers_confirm_password').on('paste', function(e) {
+                e.preventDefault();
+            });
+
+            // Carrier Custom method to validate password confirmation
+            $.validator.addMethod("carrierPasswordMatch", function(value, element) {
+                return value === $("#carriers_password").val();
+            }, "Passwords does not match");
+
+            //Carriers Custom method to validate strong password
+            $.validator.addMethod("carrierCustomPassword", function(value, element) {
+                return this.optional(element) || /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[^ ]+$/.test(value);
+            }, "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.");
+
+            //Carriers Custom method to validate Email address
+            $.validator.addMethod("carrierCustomEmail", function(value, element) {
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return this.optional(element) || emailRegex.test(value);
+            }, "Please enter a valid email address");
+
+            //Carriers check unique email
+            $.validator.addMethod("carrier_email_available", function(value, element) {
+                var is_valid = false;
+                $.ajax({
+                    url: "https://equinedispatch.com/sign-up/check_unique_email",
+                    type: "POST",
+                    dataType: "json",
+                    async: false,
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data: {
+                        vEmail: jQuery.trim($("#carriers_vEmail").val())
+                    },
+                    success: function(data) {
+                        is_valid = data.success === 'false';
+                    }
+                });
+                return is_valid;
+            },);
+
+        // Revalidate all fields on input change
+        $(document).on('input', '#carriers_vDispatchContact, #carriers_vDispatchCellPhone, #carriers_vSecondaryPhoneNumber', function() {
+                $('#carriers_vDispatchContact').valid();
+                $('#carriers_vDispatchCellPhone').valid();
+                $('#carriers_vSecondaryPhoneNumber').valid();
+            });
+
+            // Carriers Initialize form validation
+            $("#carriers_sign_up_validation").validate({
+                rules: {
+                    'carriers_vCompanyName':{
+                        notAllowedSpaces:true,
+                    },
+                    'carriers_vOwnerManager': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'carriers_vAddress': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'carriers_vCity': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'carriers_iState': {
+                        required: true,
+                    },
+                    'carriers_vZipCode': {
+                        required: true,
+                        zipcodeValidation : true,
+                    },
+                    'carriers_vEmail': {
+                        required: true,
+                        notAllowedSpaces:true,
+                        email: true,
+                        carrier_email_available:true,
+                        carrierCustomEmail:true,
+                    },
+                    'carriers_vDispatchContact': {
+                        required: true,
+                    },
+                    'carriers_vPassword': {
+                        required: true,
+                        minlength: 8,
+                        notAllowedSpaces:true,
+                        carrierCustomPassword:true,
+                    },
+                    'carriers_vConfirmPassword': {
+                        required: true,
+                        carrierPasswordMatch: true,
+                        notAllowedSpaces:true,
+                        carrierCustomPassword:true,
+                    },
+                    'carriers_terms_and_conditions': {
+                        required: true,
+                    },
+                    'carriers_second_terms': {
+                        required: true,
+                    },
+                },
+                messages: {
+                    'carriers_vCompanyName' : {
+                        notAllowedSpaces:"Company name cannot contain only spaces",
+                    },
+                    'carriers_vOwnerManager': {
+                        required: "Please enter owner manager",
+                        notAllowedSpaces:"Please enter owner manager",
+                    },
+                    'carriers_vAddress': {
+                        required: "Please enter address",
+                        notAllowedSpaces:"Please enter address",
+                    },
+                    'carriers_vCity': {
+                        required: "Please enter city",
+                        notAllowedSpaces:"Please enter city",
+                    },
+                    'carriers_iState': {
+                        required: "Please select state",
+                    },
+                    'carriers_vZipCode': {
+                        required: "Please enter zip code",
+                        zipcodeValidation : "Please enter a valid zip code",
+                    },
+                    'carriers_vEmail': {
+                        required: "Please enter email address",
+                        notAllowedSpaces: "Please enter email address",
+                        carrier_email_available: "This email is already in use, please enter a different email",
+                        carrierCustomEmail : "Please enter a valid email address",
+                    },
+                    'carriers_vDispatchContact': {
+                        required: "Please enter dispatch contact",
+                    },
+
+                    'carriers_vPassword': {
+                        required: "Please enter password",
+                        minlength: "Please enter at least 8 characters",
+                        notAllowedSpaces:"Please enter password",
+                        carrierCustomPassword: "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.",
+                    },
+                    'carriers_vConfirmPassword': {
+                        required: "Please enter confirm password",
+                        carrierPasswordMatch: "Passwords does not match",
+                        notAllowedSpaces:"Please enter confirm password",
+                        carrierCustomPassword :"Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.",
+                    },
+                    'carriers_terms_and_conditions': {
+                        required: "You must agree to the Terms of Service and Privacy Policy",
+                    },
+                    'carriers_second_terms': {
+                        required: "Please check this checkbox to continue",
+                    },
+                },
+                errorPlacement: function (error, element) {
+                    var name = element.attr('name');
+                    $(error).css({
+                        'color': '#FF0000'
+                    });
+                    if (element.is('select')) {
+                        error.insertAfter(element.next('.select2'));
+                    } else if (element.attr("name") === "carriers_second_terms") {
+                        error.appendTo("#carriers_second_terms-error");
+                    }
+                    else if (element.attr("name") === "carriers_terms_and_conditions") {
+                        error.appendTo("#carriers_terms_and_conditions-error");
+                    }
+                    else if (element.attr('type') == 'file') {
+                        error.insertAfter($(element).closest('.browse-btn-div'));
+                    } else {
+                        error.insertAfter($('[name="' + name + '"]'));
+                    }
+                },
+                submitHandler: function (form) {
+                    $.ajax({
+                        type: $(form).attr('method'),
+                        url: $(form).attr('action'),
+                        data: $(form).serialize(),
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        success: function (response) {
+                            $('.carriers_loading').hide();
+                            $('.carriers_submit').show();
+                            if (response.status === 'success') {
+                                $(form)[0].reset();
+                                grecaptcha.reset();
+                                toastr.success("Your account has been created successfully. Please check your email and activate your account");
+                                setTimeout(function() {
+                                    window.location.href = "sign-in.html";
+                                }, 2000);
+                            } else {
+                                toastr.error(response.message);
+                            }
+                        },
+
+                    });
+                    return false;
+                }
+            });
+
+            //Carriers Handle form submission button click
+            $(document).on('click', '.carriers_submit', function (event) {
+                event.preventDefault();
+                if ($("#carriers_sign_up_validation").valid()) {
+                    $('.carriers_submit').hide();
+                    $('.carriers_loading').show();
+                    $("#carriers_sign_up_validation").submit();
+                }
+            });
+
+
+            //Layovers phone number masking
+            $('#layovers_vMobile').mask('(999) 999-9999');
+
+            //layover zip code curser set to start on click
+            $('#layovers_vMobile').on('click focus', function() {
+                if ($('#layovers_vMobile').val() == "(___) ___-____") {
+                    this.setSelectionRange(0, 0);
+                }
+            });
+
+            // layovers Confirm password to prevent from paste password
+            $('#layovers_confirm_password').on('paste', function(e) {
+                e.preventDefault();
+            });
+
+            //layovers Custom method to validate password confirmation
+            $.validator.addMethod("layoversPasswordMatch", function(value, element) {
+                return value === $("#layovers_password").val();
+            }, "Passwords does not match");
+
+            //Layovers Custom method to validate strong password
+            $.validator.addMethod("layoverCustomPassword", function(value, element) {
+                return this.optional(element) || /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[^ ]+$/.test(value);
+            }, "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.");
+
+            //Layovers Custom method to validate Email address
+            $.validator.addMethod("layoverCustomEmail", function(value, element) {
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return this.optional(element) || emailRegex.test(value);
+            }, "Please enter a valid email address");
+
+            //Layovers check unique email
+            $.validator.addMethod("layovers_email_available", function(value, element) {
+                var is_valid = false;
+                $.ajax({
+                    url: "https://equinedispatch.com/sign-up/check_unique_email",
+                    type: "POST",
+                    dataType: "json",
+                    async: false,
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data: {
+                        vEmail: jQuery.trim($("#layovers_vEmail").val())
+                    },
+                    success: function(data) {
+                        is_valid = data.success === 'false';
+                    }
+                });
+                return is_valid;
+            },);
+
+            //layovers Custom method to validate unique dispatch cell phone
+            $.validator.addMethod("layovers_mobile_available", function(value, element) {
+                    var is_valid = false;
+                    $.ajax({
+                        url: "https://equinedispatch.com/sign-up/check_unique_phone",
+                        type: "POST",
+                        dataType: "json",
+                        async: false,
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        data: {
+                            vDispatchContact: jQuery.trim($("#layovers_vMobile").val())
+                        },
+                        success: function(data) {
+                            is_valid = data.success === 'false';
+                        }
+                    });
+
+                    return is_valid;
+                },);
+
+            //Layovers Initialize  form validation
+            $("#layovers_sign_up_validation").validate({
+                rules: {
+                    'layovers_vFarmName' : {
+                        notAllowedSpaces:true,
+                    },
+                    'layovers_vOwnerManager': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'layovers_vAddress': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'layovers_vCity': {
+                        required: true,
+                        notAllowedSpaces:true,
+                    },
+                    'layovers_iState': {
+                        required: true,
+                    },
+                    'layovers_vZipCode': {
+                        required: true,
+                        zipcodeValidation:true,
+                    },
+                    'layovers_vMobile': {
+                        required: true,
+                        minlength: 10,
+                        layovers_mobile_available :true,
+                    },
+                    'layovers_vEmail': {
+                        required: true,
+                        notAllowedSpaces:true,
+                        email: true,
+                        layovers_email_available:true,
+                        layoverCustomEmail:true,
+                    },
+                    'layovers_vPassword': {
+                        required: true,
+                        minlength: 8,
+                        notAllowedSpaces:true,
+                        layoverCustomPassword:true,
+                    },
+                    'layovers_vConfirmPassword': {
+                        required: true,
+                        layoversPasswordMatch: true,
+                        notAllowedSpaces:true,
+                        layoverCustomPassword:true,
+                    },
+                    'layovers_terms_and_conditions': {
+                        required: true,
+                    },
+
+                },
+                messages: {
+                    'layovers_vFarmName' : {
+                        notAllowedSpaces : "Farm name cannot contain only spaces"
+                    },
+                    'layovers_vOwnerManager': {
+                        required: "Please enter owner manager",
+                        notAllowedSpaces : "Please enter owner manager",
+                    },
+                    'layovers_vAddress': {
+                        required: "Please enter address",
+                        notAllowedSpaces : "Please enter address",
+                    },
+                    'layovers_vCity': {
+                        required: "Please enter city",
+                        notAllowedSpaces : "Please enter city",
+                    },
+                    'layovers_iState': {
+                        required: "Please select state",
+                    },
+                    'layovers_vZipCode': {
+                        required: "Please enter zip code",
+                        zipcodeValidation : "Please enter a valid zip code",
+                    },
+                    'layovers_vMobile': {
+                        required: "Please enter cell phone",
+                        minlength: "Please enter exactly 10 digits",
+                        layovers_mobile_available : "This number is already in use, please enter a different number.",
+                    },
+                    'layovers_vEmail': {
+                        required: "Please enter email address",
+                        notAllowedSpaces: "Please enter email address",
+                        layovers_email_available: "This email is already in use, please enter a different email",
+                        layoverCustomEmail :"Please enter a valid email address"
+                    },
+                    'layovers_vPassword': {
+                        required: "Please enter password",
+                        minlength: "Please enter at least 8 characters",
+                        notAllowedSpaces : "Please enter password",
+                        layoverCustomPassword : "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.",
+                    },
+                    'layovers_vConfirmPassword': {
+                        required: "Please enter confirm password",
+                        layoversPasswordMatch: "Passwords does not match",
+                        notAllowedSpaces : "Please enter confirm password",
+                        layoverCustomPassword : "Please enter password with uppercase, lowercase, numbers, special characters, and no spaces.",
+                    },
+                    'layovers_terms_and_conditions': {
+                        required: "You must agree to the Terms of Service and Privacy Policy",
+                    },
+                },
+                errorPlacement: function (error, element) {
+                    var name = element.attr('name');
+                    $(error).css({
+                        'color': '#FF0000'
+                    });
+                    if (element.is('select')) {
+                        error.insertAfter(element.next('.select2'));
+                    }else if (element.attr("name") === "layovers_terms_and_conditions") {
+                        error.appendTo("#layovers_terms_and_conditions-error");
+                    } else if (element.attr('type') == 'file') {
+                        error.insertAfter($(element).closest('.browse-btn-div'));
+                    } else {
+                        error.insertAfter($('[name="' + name + '"]'));
+                    }
+                },
+                submitHandler: function (form) {
+                    $.ajax({
+                        type: $(form).attr('method'),
+                        url: $(form).attr('action'),
+                        data: $(form).serialize(),
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        success: function (response) {
+                            $('.layovers_loading').hide();
+                            $('.layovers_submit').show();
+                            if (response.status === 'success') {
+                                $(form)[0].reset();
+                                grecaptcha.reset();
+                                toastr.success("Your account has been created successfully. Please check your email and activate your account");
+                                setTimeout(function() {
+                                    window.location.href = "sign-in.html";
+                                }, 2000);
+                            } else {
+                                toastr.error(response.message);
+                            }
+                        },
+
+                    });
+                    return false;
+                }
+            });
+
+            //Layovers Handle layovers form submission button click
+            $(document).on('click', '.layovers_submit', function (event) {
+                event.preventDefault();
+                if ($("#layovers_sign_up_validation").valid()) {
+                    $('.layovers_submit').hide();
+                    $('.layovers_loading').show();
+                    $("#layovers_sign_up_validation").submit();
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+
+        $('.currencies').select2({
+            minimumResultsForSearch: 0
+        });
+        $('#currencies_2').select2({
+            minimumResultsForSearch: 0
+        });
+        $(document).ready(function () {
+            $(document).on('change', '#currencies_2, .currencies', function() {
+                var id = $(this).val();
+                $.ajax({
+                    url: "https://equinedispatch.com/front/shippers/currencies-action",
+                    type: "POST",
+                    headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+                    data: {id: id},
+                    success: function(response) {
+                        location.reload();
+                    }
+                });
+            });
+        });
+
+
+        $(document).ready(function() {
+            if(navigator.geolocation)
+            {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    sessionStorage.setItem('latitude', latitude);
+                    sessionStorage.setItem('longitude', longitude);
+                });
+            }
+        });
+    </script>
+
+
+
+
+    <!-- Pusher Notification code -->
+
+
+
+        <script>
+            // Pass the Pusher configuration values from Laravel to JavaScript
+            window.pusherConfig = {
+                key: "d988abaa8fdb70a7c66f",
+                cluster: "ap2",
+            };
+        </script>
+        <script src="js/app.js"></script>
+    <script>
+        let eUserType = ""
+        let vCurrentUniqueCode = ""
+        let carrierName = ""
+
+            if (eUserType == 'Carrier')
+            {
+                window.Echo.channel('shipments').listen('.ShipmentPosted', (data) => {
+                const message = data.message.replace('#CARRIERS_NAME#', carrierName);
+                console.log('Received ShipmentPosted event:', data);
+                    new Notification('New Shipment', {
+                        body: message
+                    });
+                })
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidAccepted').listen('.BidAccepted', (data) => {
+                    console.log('Received BidAccepted event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Accepted', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Accepted', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidRejected').listen('.BidRejected', (data) => {
+                    console.log('Received BidRejected event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Rejected', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Rejected', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment cancelled notification
+                window.Echo.channel('ShipmentCancelled').listen('.ShipmentCancelled', (data) => {
+                    console.log('Received ShipmentCancelled event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Cancelled', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Cancelled', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+            }
+
+            if(eUserType == "Shipper")
+            {
+                //added Bid notification
+                window.Echo.channel(`bids`).listen('.BidAdded', (data) =>
+                {
+                    console.log('Received BidAdded event:', data.vUniqueCode);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode)
+                    {
+                        if (Notification.permission !== 'granted')
+                        {
+                            Notification.requestPermission()
+                            .then(permission =>
+                            {
+                                if (permission === 'granted')
+                                {
+                                    console.log('Received BidAdded event:', data);
+
+                                    new Notification('New Bid', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else
+                        {
+                            console.log('Received BidAdded event:', data);
+
+                            new Notification('New Bid', {
+                                body: data.message
+                            });
+                        }
+                    }
+                });
+
+               // Shipment picked up notification
+                window.Echo.channel('shipmentPickedUp').listen('.ShipmentPickedUp', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment delivered up notification
+                window.Echo.channel('ShipmentDelivered').listen('.ShipmentDelivered', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+            }
+
+            // Request Notification Permission
+            if (Notification.permission !== "granted") {
+                Notification.requestPermission();
+            }
+
+            // $(document).on('click', '.account-delete-btn', function(){
+            //     var vUniqueCode = $(this).data('unique-code');
+            //     var alertMsg = $(this).data('alert-msg');
+            //     var statusType = $(this).data('status-type');
+            //     var url = 'https://equinedispatch.com/delete-account/:vUniqueCode'
+            //         .replace(':vUniqueCode', vUniqueCode);
+            //     Swal.fire({
+            //         title: 'Are you sure?',
+            //         text: alertMsg,
+            //         icon: 'warning',
+            //         showCancelButton: true,
+            //         cancelButtonColor: '#525252',
+            //         confirmButtonColor: "#B7973E",
+            //         confirmButtonText: 'Yes!'
+            //     }).then((result) => {
+            //         if (result.isConfirmed) {
+            //             $.ajax({
+            //                 url: url,
+            //                 type: "POST",
+            //                 headers: {
+            //                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            //                 },
+            //                 data: {},
+            //                 success: function (response) {
+            //                     toastr.success(response.message);
+            //                     setTimeout(function() {
+            //                         window.location.href = "https://equinedispatch.com/sign-up";
+            //                     }, 1500);
+            //                 },
+            //             });
+            //         }
+            //     });
+            // });
+
+            $(document).on('click', '.account-delete-btn', function() {
+                var $button = $(this);
+                var vUniqueCode = $(this).data('unique-code');
+                var alertTitle = $(this).data('alert-title');
+                var alertMsg = $(this).data('alert-msg');
+                var statusType = $button.data('status-type');
+                var url = 'delete-account/_vUniqueCode'
+                            .replace(':vUniqueCode', vUniqueCode);
+
+                Swal.fire({
+                    title: alertTitle,
+                    text: alertMsg,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    cancelButtonColor: '#525252',
+                    confirmButtonColor: "#B7973E",
+                    confirmButtonText: 'Yes!',
+                    preConfirm: () => {
+                        Swal.getConfirmButton().style.display = 'none';
+                        Swal.getCancelButton().style.display = 'none';
+                        const loaderButtonHtml = `
+                            <button type="button" class="swal2-confirm swal2-styled swal2-custom-loader-btn" aria-label="" style="background-color: rgb(183, 151, 62);">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                Submitting...
+                            </button>
+                        `;
+                        $(Swal.getPopup()).find('.swal2-actions').append(loaderButtonHtml);
+                        const $loaderButton = $('.swal2-confirm swal2-styled swal2-custom-loader-btn');
+                        $loaderButton.show();
+
+                        return new Promise((resolve, reject) => {
+                            setTimeout(function() {
+                                $.ajax({
+                                    url: url,
+                                    type: "POST",
+                                    headers: {
+                                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                    },
+                                    data: {},
+                                    success: function (response) {
+                                        toastr.success(response.message);
+
+                                        // Update Swal alert on success
+                                        Swal.update({
+                                            title: 'Success!',
+                                            text: 'Your account has been successfully deleted.',
+                                            icon: 'success',
+                                            showCancelButton: false,
+                                            confirmButtonText: 'OK'
+                                        });
+
+                                        setTimeout(function() {
+                                            window.location.href = "sign-up";
+                                        }, 3000);
+                                    },
+                                    error: function() {
+                                        toastr.error('An error occurred. Please try again.');
+                                        reject();
+                                    },
+                                    complete: function() {
+                                        $('.swal2-custom-loader-btn').remove();
+                                    }
+                                });
+                            }, 1000);
+                        });
+                    }
+                });
+            });
+
+    </script>
+  </body>
+
+<!-- Mirrored from https://equinedispatch.com/sign-up?role=carrier by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:40 GMT -->
+</html>
+

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="EN">
+  
+<!-- Mirrored from https://equinedispatch.com/privacy-policy by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLGNVP9W');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG8X9VST3D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VG8X9VST3D');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="csrf-token" content="ZlNbyONtZhTjbsVFhl3P4hxMt4Uv4YYIkf1F8Gob">
+
+    
+    
+
+        <title>Equine Dispatch Privacy Policy: Your Data, Our Commitment</title>
+    <meta name="keywords" content="Privacy Policy Equine Dispatch">
+    <meta name="description" content="At Equine Dispatch, your privacy matters. Learn how we protect your information, our data practices, and your rights regarding horse transport services.">
+    
+        <link rel="canonical" href="privacy-policy"/>
+    
+  <link rel="shortcut icon" type="image/x-icon" href="uploads/logo/favicon.png">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="front/assets/css/bootstrap.min.css"  />
+<link rel="stylesheet" href="front/assets/css/owl.carousel.min.css"  />
+<link rel="stylesheet" href="front/assets/css/owl.theme.default.css"  />
+<link rel="stylesheet" href="front/assets/css/main.css"  />
+<link rel="stylesheet" href="front/assets/css/responsive.css"  />
+<link rel="stylesheet" href="front/assets/css/toastr.css"  />
+<link rel="stylesheet" href="front/assets/css/select2.min.css"  />
+      </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGNVP9W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <header>
+    <!-- top-header -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="top-nav-box">
+                <div class="top-nav-info">
+                    <p class="title">Call Us :<a class="mobile"
+                            href="phone:Happy Shipping!">
+                            Happy Shipping!</a></p>
+                    <p class="title">Mail To :<a class="mobile"
+                            href="mailto:EquineDispatch@gmail.com">
+                            EquineDispatch@gmail.com
+                        </a></p>
+                </div>
+                <div class="top-nav-info">
+                    <ul>
+                        <li class="title">
+                            Follow Us :
+                        </li>
+                                                <li>
+                            <a href="https://www.facebook.com/" target="blank"
+                                title="Follow on Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.instagram.com/" target="blank"
+                                title="Follow on Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.twitter.com/equine" target="blank"
+                                title="Follow on X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a href="https://linkedin.com/" target="blank"
+                                title="Follow on Linkdin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+    </nav>
+    <nav class="main-header navbar navbar-expand-lg">
+        <div class="container">
+            <div class="mobile-wrapper">
+                <button class="navbar-icon navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <a class="logo navbar-brand" href="index.html">
+                    <img src="uploads/logo/logo.png" alt="logo"
+                        width="170" height="60">
+                </a>
+            </div>
+            <div class="mobile-toggle-wrp ">
+                <div class="header-btn">
+                    <a href="sign-in.html"
+                        class="btn">Sign In</a>
+                    <a href="sign-up-select.html"
+                        class="main-btn">Sign Up</a>
+                </div>
+
+            </div>
+            <div class="offcanvas-head offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <ul class="nav-menu navbar-nav me-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about-us.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="shippers.html">
+                                Shippers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="carriers">
+                                Carriers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="layovers">
+                                Layovers
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="faq">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="contact-us">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-btn">
+                        <a href="sign-in.html"
+                            class="btn">Sign In</a>
+                        <a href="sign-up-select.html"
+                            class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- MObile menu -->
+
+<!-- Shippers -->
+
+
+<!-- Carrier -->
+
+
+
+<!-- Layovers -->
+
+        
+    
+
+    <!-- hero section -->
+
+    <section class="hero-section bg-img" style="background-image:url(front/assets/image/privacy-bg.png)">
+        <div class="container">
+            <div class="hero-content">
+                                <h1 class="banner-title">PRIVACY <span>POLICY </span></h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy -->
+                                                                                <section class="privacy py-100">
+<div class="container">
+<div class="privacy-heading">
+<h2 class="title">Privacy Policy</h2>
+</div>
+<div class="privacy-detail">
+<p><span style="font-weight: 400;">Equine Dispatch LLC. (Equine Dispatch) values its users' privacy. This Privacy Policy ("Policy") will help you understand how we collect and use personal information from those who visit our website or make use of our online facilities and services, and what we will and will not do with the information we collect. Our Policy has been designed and created to assure those affiliated with Equine Dispatch LLC. of our commitment and realization of our obligation not only to meet, but to exceed, most existing privacy standards.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We reserve the right to make changes to this Policy at any given time. If you have not registered with us and want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page. If you are a registered user, we will notify you via email of any changes or updates made to this Policy. If at any point in time Equine Dispatch LLC. decides to make use of any personally identifiable information on file, in a manner vastly different from that which was stated when this information was initially collected, the user or users shall be promptly notified by email. Users at that time shall have the option as to whether to permit the use of their information in this separate manner.&nbsp;</span></p>
+<p><span style="font-weight: 400;">This Policy applies to Equine Dispatch LLC., and it governs any and all data collection and usage by us. Through the use of www.EquineDispatch.com, you are therefore consenting to the data collection procedures expressed in this Policy.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Please note that this Policy does not govern the collection and use of information by companies that Equine Dispatch LLC. does not control, nor by individuals not employed or managed by us. If you visit a website that we mention or link to, be sure to review its privacy policy before providing the site with information. It is highly recommended and suggested that you review the privacy policies and conditions of any website you choose to use or frequent to better understand the way in which websites garner, make use of and share the information collected.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Specifically, this Policy will inform you of the following&nbsp;</span></p>
+<p>&nbsp;</p>
+<br />
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. What personally identifiable information is collected from you through our website; </span></p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Why we collect personally identifiable information and the legal basis for such collection; </span></p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. How we use the collected information and with whom it may be shared; </span></p>
+<br />
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4. What choices are available to you regarding the use of your data;&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5. The security procedures in place to protect the misuse of your information.</span></p>
+<br />
+<p><span style="text-decoration: underline; color: #000000;"><strong>Information We Collect</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">It is always up to you whether to disclose personally identifiable information to us, although if you elect not to do so, we reserve the right not to register you as a user or provide you with any products or services. This website collects various types of information, such as:&nbsp;</span></p>
+<ul>
+<ul>
+<li><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> Voluntarily provided information which may include your name, address, email address, billing and/or credit card information etc. which may be used when you purchase products and/or services and to deliver the services you have requested.&nbsp;</span></li>
+</ul>
+</ul>
+<br />
+<ul>
+<li><span style="font-weight: 400;"><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong>Information automatically collected when visiting our website, which may include cookies, third party tracking technologies and server logs.&nbsp;</span></span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">In addition, Equine Dispatch LLC. may have the occasion to collect non-personal anonymous demographic information, such as age, gender, household income, political affiliation, race and religion, as well as the type of browser you are using, IP address, or type of operating system, which will assist us in providing and maintaining superior quality service.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. may also deem it necessary, from time to time, to follow websites that our users may frequent to gleam what types of services and products may be the most popular to customers or the general public.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Please rest assured that this site will only collect personal information that you knowingly and willingly provide to us by way of surveys, completed membership forms, and emails. It is the intent of this site to use personal information only for the purpose for which it was requested, and any additional uses specifically provided for in this Policy.&nbsp;&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Why We Collect Information and For How Long&nbsp;</strong></span><span style="color: #000000;"><strong> :</strong></span></p>
+<br />
+<p><span style="font-weight: 400;">We are collecting your data for several reasons:&nbsp;</span></p>
+<br />
+<p><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong>To better understand your needs and provide you with the services you have requested;</p>
+<p><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong>To fulfill our legitimate interest in improving our services and products;</p>
+<p><strong>&nbsp; &nbsp; &nbsp; ●</strong>&nbsp; &nbsp;To send you promotional emails containing information we think you may like when we have your consent to do so;</p>
+<p><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong>To contact you to fill out surveys or participate in other types of market research, when we have your consent to do so</p>
+<p><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong>To customize our website according to your online behavior and personal preferences.</p>
+<p><span style="font-weight: 400;">The data we collect from you will be stored for no longer than necessary. The length of time we retain said information will be determined based upon the following criteria: the length of time your personal information remains relevant; the length of time it is reasonable to keep records to demonstrate that we have fulfilled our duties and obligations; any limitation periods within which claims might be made; any retention periods prescribed by law or recommended by regulators, professional bodies or associations; the type of contract we have with you, the existence of your consent, and our legitimate interest in keeping such information as stated in this Policy.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Use of Information Collected</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. does not now, nor will it in the future, sell, rent or lease any of its customer lists and/or names to any third parties.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. may collect and may make use of personal information to assist in the operation of our website and to ensure delivery of the services you need and request. At times, we may find it necessary to use personally identifiable information as a means to keep you informed of other possible products and/or services that may be available to you from www.EquineDispatch.com&nbsp;</span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. may also be in contact with you with regards to completing surveys and/or research questionnaires related to your opinion of current, potential, or future services that may be offered.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. uses various third-party social media features including but not limited to Facebook, X, Instagram and other interactive programs. These may collect your IP address and require cookies to work properly. These services are governed by the privacy policies of the providers and are not within Equine Dispatch LLC.'s control.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Disclosure of Information</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<br />
+<p><span style="font-weight: 400;">Equine Dispatch LLC. may not use or disclose the information provided by you except under the following circumstances:&nbsp;</span></p>
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> as necessary to provide services or products you have ordered;&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> in other ways described in this Policy or to which you have otherwise consented; </span></p>
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> in the aggregate with other information in such a way so that your identity cannot reasonably be determined;&nbsp;</span></p>
+<p><span style="font-weight: 400;"> <strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> as required by law, or in response to a subpoena or search warrant;&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> to outside auditors who have agreed to keep the information confidential; </span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> as necessary to enforce the Terms of Service on our website;&nbsp;</span></p>
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong> as necessary to maintain, safeguard and preserve all the rights and property of Equine Dispatch LLC..&nbsp;</span></p>
+<br />
+<p><span style="text-decoration: underline; color: #000000;"><strong>Non-Marketing Purposes</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. greatly respects your privacy. We do maintain and reserve the right to contact you if needed for non-marketing purposes (such as bug alerts, security breaches, account issues, and/or changes in Equine Dispatch LLC. products and services, or changes to this Policy). In certain circumstances, we may use our website, newspapers, or other public means to post a notice.&nbsp;</span></p>
+<br />
+<p><span style="text-decoration: underline; color: #000000;"><strong>Children under the age of 13</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC.'s website is not directed to, and does not knowingly collect personal identifiable information from, children under the age of thirteen (13). If it is determined that such information has been inadvertently collected on anyone under the age of thirteen (13), we shall immediately take the necessary steps to ensure that such information is deleted from our system's database, or in the alternative, that verifiable parental consent is obtained for the use and storage of such information. Anyone under the age of thirteen (13) must seek and obtain parent or guardian permission to use this website.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Unsubscribe or Opt-Out</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">All users and visitors to our website have the option to discontinue receiving communications from us by way of email or newsletters. To discontinue or unsubscribe from our website please send an email that you wish to unsubscribe to EquineDispatch@gmail.com. If you wish to unsubscribe or opt-out from any third-party websites, you must go to that specific website to unsubscribe or opt-out. Equine Dispatch LLC. will continue to adhere to this Policy with respect to any personal information previously collected.</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Links to Other Websites</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">Our website does contain links to affiliate and other websites. Equine Dispatch LLC. does not claim nor accept responsibility for any privacy policies, practices and/or procedures of other websites. Therefore, we encourage all users and visitors to be aware when they leave our website and to read the privacy statements of every website that collects personally identifiable information. This Policy applies only and solely to the information collected by our website.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Notice to European Union Users</strong></span><strong>&nbsp; :</strong></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC.'s operations are located primarily in the United States. If you provide information to us, the information will be transferred out of the European Union (EU) and sent to the United States. (The adequacy decision on the EU-US Privacy became operational on August 1, 2016. This framework protects the fundamental rights of anyone in the EU whose personal data is transferred to the United States for commercial purposes. It allows the free transfer of data to companies that are certified in the US under the Privacy Shield.) By providing personal information to us, you are consenting to its storage and use as described in this Policy.&nbsp;</span></p>
+<p><span style="text-decoration: underline;"><span style="color: #000000; text-decoration: underline;"><strong>Your Rights as a Data Subject</strong></span></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">Under the regulations of the General Data Protection Regulation ("GDPR") of the EU you have certain rights as a Data Subject. These rights are as follows:&nbsp;</span></p>
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong> The right to be informed : </strong>this means we must inform you of how we intend to use your personal data and we do this through the terms of this Policy.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong> The right of access : </strong>this means you have the right to request access to the data we hold about you and we must respond to those requests within one month. You can do this by sending an email to EquineDispatch@gmail.com.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong> The right to rectification : </strong>this means that if you believe some of the data we hold is incorrect, you have the right to have it corrected. You can do this by logging into your account with us, or by sending us an email with your request. You can do this by sending an email to EquineDispatch@gmail.com.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong> The right to erasure : </strong>this means you can request that the information we hold about you be deleted, and we will comply unless we have a compelling reason not to, in which case you will be informed of the reason. You can do this by sending an email to EquineDispatch@gmail.com.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong>The right to restrict processing : </strong>this means you can change your communication preferences or opt-out of certain communications. You can do this by sending an email to EquineDispatch@gmail.com.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp;</strong><strong>The right of data portability : </strong>this means you can obtain and use the data we hold for your own purposes without explanation. If you wish to request a copy of your information, contact us at EquineDispatch@gmail.com.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;"><strong>&nbsp; &nbsp; &nbsp; ●&nbsp; &nbsp; The right to object : </strong>this means you can file a formal objection with us regarding our use of your information with regard to third parties, or its processing where our legal basis is our legitimate interest in it. To do this, please send an email to&nbsp; EquineDispatch@gmail.com.&nbsp; </span></p>
+<br />
+<p><span style="font-weight: 400;">In addition to the rights above, please rest assured that we will always aim to encrypt and anonymize your personal information whenever possible. We also have protocols in place in the unlikely event that we suffer a data breach and we will contact you if your personal information is ever at risk. For more details regarding our security protections see the section below or visit our website at www.EquineDispatch.com.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Security</strong></span><span style="color: #000000;"><strong> :</strong></span></p>
+<p><span style="font-weight: 400;">Equine Dispatch LLC. takes precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline. Wherever we collect sensitive information (e.g. credit card information), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for "https" at the beginning of the address of the webpage.&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;">While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers and servers in which we store personally identifiable information are kept in a secure environment. This is all done to prevent any loss, misuse, unauthorized access, disclosure or modification of the user's personal information under our control.&nbsp;</span></p>
+<p><span style="font-weight: 400;">The Company also uses Secure Socket Layer (SSL) for authentication and private communications to build users' trust and confidence in the internet and website use by providing simple and secure access and communication of credit card and personal information.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>Acceptance of Terms</strong></span><span style="color: #000000;"><strong>&nbsp; :</strong></span></p>
+<p><span style="font-weight: 400;">By using this website, you are hereby accepting the terms and conditions stipulated within this Privacy Policy Agreement. If you are not in agreement with our terms and conditions, then you should refrain from further use of our sites. In addition, your continued use of our website following proper notification or the posting of any updates or changes to our terms and conditions, shall mean that you agree and accept such changes.&nbsp;</span></p>
+<p><span style="text-decoration: underline; color: #000000;"><strong>How to Contact Us</strong></span><strong>&nbsp; :</strong></p>
+<p><span style="font-weight: 400;">If you have any questions or concerns regarding this Privacy Policy as it relates to our website, please feel free to contact us at the following email, telephone number or mailing address:&nbsp;</span></p>
+<p><strong>Email: </strong><span style="font-weight: 400;">EquineDispatch@gmail.com&nbsp;</span></p>
+<br /><br />
+<p><strong>Mailing Address:&nbsp;</strong></p>
+<br />
+<p><span style="font-weight: 400;">Equine Dispatch LLC.&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">160 E. Washington St. PO Box #23156&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">Chagrin Falls, Ohio&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">44023&nbsp;</span></p>
+<br /><br />
+<p><span style="font-weight: 400;">The data controller responsible for your personal information for the purposes of GDPR compliance is:&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">JD Thalman&nbsp;</span></p>
+<p><span style="font-weight: 400;">EquineDispatch@gmail.com&nbsp;</span></p>
+<p><span style="font-weight: 400;">160 E. Washington St. PO Box #23156 Chagrin Falls, OH 44023</span></p>
+<strong><strong><br /><br /></strong></strong>
+<p>&nbsp;</p>
+</div>
+</div>
+</section>
+                                                                                                                            
+            <footer class="bg-img" style="background-image: url(front/assets/image/footer-bg.png)">
+        <div class="container">
+            <div class="footer-box py-100">
+                <div class="row g-4">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo">
+                            <a class="logo navbar-brand" href="index.html">
+                                <img src="uploads/logo/footer_logo.png" class="img-fluid" alt="footer-logo" width="160" height="57">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Company
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="about-us.html">About Us</a></li>
+                                    <li class=""><a class="text" href="privacy-policy">Privacy Policy</a></li>
+                                    <li class=""><a class="text" href="terms-and-conditions">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Support
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="faq">FAQ</a></li>
+                                    <li class=""><a class="text" href="contact-us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Shippers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="shippers.html">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="shippers-reviews">Happy Shippers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                                Carriers
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class=""><a class="text" href="carriers">How it Works ?</a></li>
+                                    <li class=""><a class="text" href="carriers-reviews">Happy Carriers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-6 col-xl-2">
+                        <div class="footer-detail">
+                            <div class="title">
+                            Get in touch
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="footer-menu-list">
+                                    <li class="text">
+                                        <p class="text">160 E. Washington St. PO Box #23156
+Chagrin Falls, OH 44023</p>
+                                    </li>
+                                    <li class=""><a class="text" href="mailto:EquineDispatch@gmail.com">EquineDispatch@gmail.com</a></li>
+                                    <li class=""><a class="text" href="phone:Happy Shipping!">Happy Shipping!</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pb-100">
+                <div class="copy-right">
+                    <p class="title">
+                        © 2026  Equine Dispatch | All rights Reserved.<br>
+                    </p>
+                </div>
+                <div class="footer-icon">
+                    <div class="top-nav-info">
+                        <ul>
+                                                            <li>
+                                    <a href="https://www.facebook.com/" target="blank" title="Follow on Facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.instagram.com/" target="blank"  title="Follow on Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://www.twitter.com/equine" target="blank" title="Follow on X">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                                                                        <li>
+                                    <a href="https://linkedin.com/" target="blank" title="Follow on Linkdin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="front/assets/js/jquery-3.6.4.min.js"></script>
+<script src="front/assets/js/owl.carousel.min.js"></script>
+<script src="front/assets/js/bootstrap.bundle.min.js"></script>
+<script src="front/assets/js/custom.js"></script>
+<script src="front/assets/js/toastr.min.js"></script>
+<script src="front/assets/js/jquery.validate.js"></script>
+<script src="front/assets/js/masking.js"></script>
+<script src="front/assets/js/sweetalert2.js"></script>
+<script src="front/assets/js/select2.min.js"></script>
+
+        <script>
+
+        $('.currencies').select2({
+            minimumResultsForSearch: 0
+        });
+        $('#currencies_2').select2({
+            minimumResultsForSearch: 0
+        });
+        $(document).ready(function () {
+            $(document).on('change', '#currencies_2, .currencies', function() {
+                var id = $(this).val();
+                $.ajax({
+                    url: "https://equinedispatch.com/front/shippers/currencies-action",
+                    type: "POST",
+                    headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+                    data: {id: id},
+                    success: function(response) {
+                        location.reload();
+                    }
+                });
+            });
+        });
+
+
+        $(document).ready(function() {
+            if(navigator.geolocation)
+            {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    sessionStorage.setItem('latitude', latitude);
+                    sessionStorage.setItem('longitude', longitude);
+                });
+            }
+        });
+    </script>
+
+
+
+
+    <!-- Pusher Notification code -->
+
+
+
+        <script>
+            // Pass the Pusher configuration values from Laravel to JavaScript
+            window.pusherConfig = {
+                key: "d988abaa8fdb70a7c66f",
+                cluster: "ap2",
+            };
+        </script>
+        <script src="js/app.js"></script>
+    <script>
+        let eUserType = ""
+        let vCurrentUniqueCode = ""
+        let carrierName = ""
+
+            if (eUserType == 'Carrier')
+            {
+                window.Echo.channel('shipments').listen('.ShipmentPosted', (data) => {
+                const message = data.message.replace('#CARRIERS_NAME#', carrierName);
+                console.log('Received ShipmentPosted event:', data);
+                    new Notification('New Shipment', {
+                        body: message
+                    });
+                })
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidAccepted').listen('.BidAccepted', (data) => {
+                    console.log('Received BidAccepted event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Accepted', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Accepted', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Bid accepted notification
+                window.Echo.channel('BidRejected').listen('.BidRejected', (data) => {
+                    console.log('Received BidRejected event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Bid Rejected', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Bid Rejected', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment cancelled notification
+                window.Echo.channel('ShipmentCancelled').listen('.ShipmentCancelled', (data) => {
+                    console.log('Received ShipmentCancelled event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Cancelled', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Cancelled', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+            }
+
+            if(eUserType == "Shipper")
+            {
+                //added Bid notification
+                window.Echo.channel(`bids`).listen('.BidAdded', (data) =>
+                {
+                    console.log('Received BidAdded event:', data.vUniqueCode);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode)
+                    {
+                        if (Notification.permission !== 'granted')
+                        {
+                            Notification.requestPermission()
+                            .then(permission =>
+                            {
+                                if (permission === 'granted')
+                                {
+                                    console.log('Received BidAdded event:', data);
+
+                                    new Notification('New Bid', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else
+                        {
+                            console.log('Received BidAdded event:', data);
+
+                            new Notification('New Bid', {
+                                body: data.message
+                            });
+                        }
+                    }
+                });
+
+               // Shipment picked up notification
+                window.Echo.channel('shipmentPickedUp').listen('.ShipmentPickedUp', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+                // Shipment delivered up notification
+                window.Echo.channel('ShipmentDelivered').listen('.ShipmentDelivered', (data) => {
+                    console.log('Received shipmentPickedUp event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Shipment Status', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Shipment Status', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // Review added notification
+                window.Echo.channel('ReviewAdded').listen('.ReviewAdded', (data) => {
+                    console.log('Received ReviewAdded event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('Review Added', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('Review Added', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+
+                // New message notification
+                window.Echo.channel('NewMessage').listen('.NewMessage', (data) => {
+                    console.log('Received NewMessage event:', data);
+
+                    if (data.vUniqueCode === vCurrentUniqueCode) {
+                        if (Notification.permission !== 'granted') {
+                            Notification.requestPermission().then(permission => {
+                                if (permission === 'granted') {
+                                    new Notification('New Message', {
+                                        body: data.message
+                                    });
+                                }
+                            });
+                        } else {
+                            new Notification('New Message', {
+                                body: data.message
+                            });
+                        }
+                    } else {
+                        console.log('vUniqueCode does not match');
+                    }
+                });
+
+            }
+
+            // Request Notification Permission
+            if (Notification.permission !== "granted") {
+                Notification.requestPermission();
+            }
+
+            // $(document).on('click', '.account-delete-btn', function(){
+            //     var vUniqueCode = $(this).data('unique-code');
+            //     var alertMsg = $(this).data('alert-msg');
+            //     var statusType = $(this).data('status-type');
+            //     var url = 'https://equinedispatch.com/delete-account/:vUniqueCode'
+            //         .replace(':vUniqueCode', vUniqueCode);
+            //     Swal.fire({
+            //         title: 'Are you sure?',
+            //         text: alertMsg,
+            //         icon: 'warning',
+            //         showCancelButton: true,
+            //         cancelButtonColor: '#525252',
+            //         confirmButtonColor: "#B7973E",
+            //         confirmButtonText: 'Yes!'
+            //     }).then((result) => {
+            //         if (result.isConfirmed) {
+            //             $.ajax({
+            //                 url: url,
+            //                 type: "POST",
+            //                 headers: {
+            //                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            //                 },
+            //                 data: {},
+            //                 success: function (response) {
+            //                     toastr.success(response.message);
+            //                     setTimeout(function() {
+            //                         window.location.href = "https://equinedispatch.com/sign-up";
+            //                     }, 1500);
+            //                 },
+            //             });
+            //         }
+            //     });
+            // });
+
+            $(document).on('click', '.account-delete-btn', function() {
+                var $button = $(this);
+                var vUniqueCode = $(this).data('unique-code');
+                var alertTitle = $(this).data('alert-title');
+                var alertMsg = $(this).data('alert-msg');
+                var statusType = $button.data('status-type');
+                var url = 'delete-account/_vUniqueCode'
+                            .replace(':vUniqueCode', vUniqueCode);
+
+                Swal.fire({
+                    title: alertTitle,
+                    text: alertMsg,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    cancelButtonColor: '#525252',
+                    confirmButtonColor: "#B7973E",
+                    confirmButtonText: 'Yes!',
+                    preConfirm: () => {
+                        Swal.getConfirmButton().style.display = 'none';
+                        Swal.getCancelButton().style.display = 'none';
+                        const loaderButtonHtml = `
+                            <button type="button" class="swal2-confirm swal2-styled swal2-custom-loader-btn" aria-label="" style="background-color: rgb(183, 151, 62);">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                Submitting...
+                            </button>
+                        `;
+                        $(Swal.getPopup()).find('.swal2-actions').append(loaderButtonHtml);
+                        const $loaderButton = $('.swal2-confirm swal2-styled swal2-custom-loader-btn');
+                        $loaderButton.show();
+
+                        return new Promise((resolve, reject) => {
+                            setTimeout(function() {
+                                $.ajax({
+                                    url: url,
+                                    type: "POST",
+                                    headers: {
+                                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                    },
+                                    data: {},
+                                    success: function (response) {
+                                        toastr.success(response.message);
+
+                                        // Update Swal alert on success
+                                        Swal.update({
+                                            title: 'Success!',
+                                            text: 'Your account has been successfully deleted.',
+                                            icon: 'success',
+                                            showCancelButton: false,
+                                            confirmButtonText: 'OK'
+                                        });
+
+                                        setTimeout(function() {
+                                            window.location.href = "sign-up";
+                                        }, 3000);
+                                    },
+                                    error: function() {
+                                        toastr.error('An error occurred. Please try again.');
+                                        reject();
+                                    },
+                                    complete: function() {
+                                        $('.swal2-custom-loader-btn').remove();
+                                    }
+                                });
+                            }, 1000);
+                        });
+                    }
+                });
+            });
+
+    </script>
+  </body>
+
+<!-- Mirrored from https://equinedispatch.com/privacy-policy by HTTrack Website Copier/3.x [XR&CO], Wed, 02 Sep 2026 20:49:52 GMT -->
+</html>
+

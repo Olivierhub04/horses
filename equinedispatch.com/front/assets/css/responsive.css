@@ -1,0 +1,2129 @@
+@media only screen and (max-width: 1600px) {
+    .signup-tab .nav-tabs .nav-link {
+        padding: 15px 50px;
+    }
+}
+
+@media only screen and (max-width:1499px) {
+    .project-listing-tab .nav{
+        overflow-x: auto;
+        width: 100%;
+        flex-wrap: unset;
+    }
+    .notification-list {
+        padding: 0 25px;
+    }
+
+    .px-60 {
+        padding: 0 40px;
+    }
+
+    .after-login-menu {
+        gap: 10px;
+    }
+
+    .after-login-collapse .navbar-nav {
+        gap: 40px;
+    }
+
+    .login-section .back-btn {
+        margin-left: -30px;
+    }
+
+    .sign-up-body {
+        padding: 80px;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        padding: 18px 45px;
+    }
+
+    .login-section .login-img .login-logo {
+        left: 35%;
+    }
+
+    .home-banner {
+        padding-top: 100px;
+        min-height: 650px;
+    }
+
+    .banner-title {
+        font-size: 47px;
+    }
+
+    .sub-title {
+        margin-bottom: 10px;
+    }
+
+    .main-title {
+        margin-bottom: 20px;
+    }
+
+    .about-us-content .about-us-description {
+        margin-bottom: 40px;
+    }
+
+    .pt-100 {
+        padding-top: 80px;
+    }
+
+    .pb-100 {
+        padding-bottom: 80px;
+    }
+
+    .mt-100 {
+        margin-top: 80px;
+    }
+
+    .py-100 {
+        padding: 80px 0;
+    }
+
+    .customer-inner-box {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    
+    .carrier-upcoming-dashboard .post-view ul li:nth-child(2) {
+        width: 100%;
+    }
+
+    .carrier-upcoming-dashboard .post-view ul li:nth-child(3) {
+        width: 100%;
+    }
+
+    .carrier-upcoming-dashboard .post-view ul li:nth-child(4) {
+        width: 100%;
+    }
+
+    .carrier-upcoming-dashboard .post-view {
+        padding-bottom: 30px;
+    }
+
+    .carrier-upcoming-dashboard .post-view ul li {
+        width: 100%;
+        margin-bottom: 0;
+        border-right: 0;
+    }
+
+    .brand-logo img {
+        height: 172px;
+        max-width: 172px;
+    }
+
+    .carrier-input-box .form-search-item-input {
+        width: 23%;
+    }
+
+    .project-listing-tab .nav-tabs .nav-item .notification-count {
+        top: 3px;
+    }
+
+    /* .project-listing-tab .nav-tabs .nav-link {
+        padding: 15px 25px;
+    } */
+    .project-listing-tab.bid-tab-view .nav-tabs .nav-link{
+        padding: 15px 25px;
+    }
+
+    .carrier-input-box .start-radius {
+        align-items: center !important;
+        margin-bottom: 0;
+    }
+
+    .carrier-input-box .start-radius .form-control {
+        width: 200px;
+    }
+
+    .carrier-input-box .input-box {
+        align-items: start;
+    }
+    /*
+    .carrier-input-box .form-control{
+        width: 23%;
+    } */
+
+    .carrier-input-box .form-search-item {
+        flex-wrap: wrap;
+    }
+
+    .footer-detail ul li .text {
+        font-size: 15px;
+    }
+
+    .horse-info-block {
+        margin-bottom: 15px;
+    }
+
+    .post-view-inner-block .amount {
+        margin-bottom: 15px;
+    }
+
+    .post-view-inner-block .post-view-btn {
+        margin-bottom: 15px;
+    }
+
+    .post-view ul li {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    .post-view ul {
+        display: block;
+    }
+
+    .post-view ul li {
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .post-view ul li:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .after-login-collapse .navbar-nav .nav-item .nav-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .select-all-inner-block .content .detail .inner-title {
+        width: 90%;
+    }
+
+    .after-login-collapse .navbar-nav {
+        gap: 20px;
+    }
+
+    .after-login-nav .logo img {
+        width: 120px;
+        height: 55px;
+    }
+
+    .px-60 {
+        padding: 0px 30px;
+    }
+
+    .basic-plan-box {
+        padding: 20px;
+    }
+
+    .renew-box {
+        padding: 18px;
+    }
+
+    .hero-section {
+        min-height: 400px;
+    }
+
+    .sign-up-body .back-btn {
+        padding-top: 0;
+    }
+
+    .login-form .title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        padding: 15px 35px;
+    }
+
+    .sign-up-body {
+        padding: 60px;
+    }
+
+    /* .login-form{
+        padding: 40px;
+    } */
+
+    .login-form .create-account {
+        padding-top: 35px;
+    }
+
+    .input-box {
+        margin-bottom: 20px;
+    }
+
+    /* .login-section .back-btn{
+        margin-top: 20px;
+    } */
+
+    .brand-logo {
+        width: 223px;
+        height: 223px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .main-btn {
+        font-size: 14px;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        width: 120px;
+        height: 55px;
+    }
+
+    .main-header {
+        padding: 12px 0;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .home-banner {
+        padding-top: 100px;
+        min-height: 450px;
+    }
+    .customer-inner-box {
+        border-left: 0;
+    }
+    .customer-inner-box .count {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .customer-inner-box .title {
+        font-size: 22px;
+    }
+
+    .customer-inner-box .customer-box-description {
+        margin-bottom: 20px;
+    }
+
+    .customer-box:last-child .customer-inner-box {
+        border-right: 0;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        margin-right: 100px;
+    }
+
+    .main-header .nav-menu {
+        gap: 15px;
+    }
+
+    .profile-rating .user-detail{
+        margin-left: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .carrier-upcoming-dashboard .post-view ul li {
+        padding: 20px 20px 20px 0px;
+    }
+
+    .carrier-upcoming-dashboard .post-view {
+        padding: 0 20px 20px;
+    }
+
+    .after-login-collapse .navbar-nav {
+        gap: 10px;
+    }
+
+    .after-login-collapse .navbar-nav .nav-item .nav-link svg {
+        margin-right: 8px;
+    }
+
+    .brand-logo img {
+        height: 150px;
+        max-width: 150px;
+    }
+
+    .currency-change {
+        min-width: 90px;
+        padding: 5px;
+    }
+
+
+    .project-listing-tab .nav-tabs .nav-link {
+        white-space: nowrap;
+    }
+
+    .range_container {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .carrier-search-block {
+        display: block;
+    }
+
+    .carrier-input-box .input-box {
+        display: block;
+    }
+
+    .carrier-input-box .start-radius .form-control {
+        margin-bottom: 20px;
+    }
+
+    /* .carrier-input-box .form-control {
+        width: 31%;
+    } */
+
+    .footer-detail ul li .text {
+        font-size: 14px;
+    }
+
+    .carrier-report .icon {
+        margin-bottom: 15px;
+    }
+
+    .carrier-report {
+        display: block;
+        text-align: center;
+    }
+
+    .dashboard-inner-block {
+        /* padding: 15px; */
+    }
+
+    .dashboard-inner-block .user-detail .user-list .title {
+        margin-bottom: 15px;
+    }
+
+    .dashboard-inner-block .user-detail .user-img {
+        margin-bottom: 20px;
+    }
+
+    .dashboard-inner-block .user-detail {
+        display: block;
+    }
+
+    .complete-project {
+        padding: 15px;
+    }
+
+    .after-login-nav .after-login-collapse .dashboard .title {
+        font-size: 20px;
+    }
+
+    .shipper-detail-btn {
+        gap: 30px;
+    }
+
+    .message-day {
+        padding: 15px 0;
+    }
+
+    .message-day::before {
+        width: 43%;
+    }
+
+    .message-day::after {
+        width: 43%;
+    }
+
+    .chat-right-view {
+        padding: 20px;
+    }
+
+    .chat-header-profile .chat-header-user {
+        gap: 15px;
+    }
+
+    .chat-view-page .chat-header-profile {
+        padding: 15px;
+    }
+
+    .left-inner-title {
+        padding: 15px;
+    }
+
+    .chat-view-page .chat-view-search {
+        padding: 15px;
+    }
+
+    .chat-back-arrow {
+        padding: 20px;
+    }
+
+    .renew-box {
+        padding: 15px;
+    }
+
+    .after-login-menu .dropdown {
+        font-size: 15px;
+    }
+
+    .after-login-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+
+    .after-login-menu .after-login-img img {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* .footer-detail ul li .text {
+        word-break: break-all;
+    } */
+
+    .after-login-collapse .navbar-nav .nav-item .nav-link.nav-icon::after {
+        top: 2px;
+        left: 15px;
+    }
+
+    .choose-plane-block {
+        padding: 20px;
+    }
+
+    .choose-plane-block .price-box .price {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .choose-plane-block .price-box .title {
+        margin-bottom: 25px;
+    }
+
+    .payment-history-box table tbody tr td {
+        padding: 15px;
+    }
+
+    .payment-history-box table thead tr th {
+        padding: 15px;
+    }
+
+    .renew-box .renew-text {
+        font-size: 16px;
+    }
+
+    .basic-plan-box .title {
+        margin-bottom: 20px;
+    }
+
+    .basic-plan-box .description {
+        margin-bottom: 20px;
+    }
+
+    .shipper-profile-main-view .shipper-profile-inner-title {
+        padding: 20px;
+    }
+
+    .subscription-plan {
+        padding: 20px;
+    }
+
+    .about-us-content .about-us-description ul li {
+        margin-bottom: 20px;
+    }
+
+    .carrier-story-img img {
+        width: 40%;
+        margin-right: 40px;
+    }
+
+    .about-us-img img {
+        height: 350px;
+    }
+
+    .shipper-heading .title {
+        margin-bottom: 5px;
+    }
+
+    .rating-wrap .rating-point:before {
+        font-size: 18px;
+    }
+
+    .rating-wrap .product-rate:before {
+        font-size: 18px;
+    }
+
+    .shipper-review-box {
+        padding: 20px;
+    }
+
+    .shipper-review-box .shipper-img img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .shipper-review-box .shipper-review-top {
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+
+    .get-touch-img img {
+        height: 500px;
+    }
+
+    .faq-inner-tab {
+        padding: 20px;
+    }
+
+    .faq-list .faq-left-body .faq-inner-title a {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .faq-inner-tab .nav {
+        margin-bottom: 35px;
+    }
+
+    .inner-tab-title {
+        margin-bottom: 20px;
+    }
+
+    .faq-inner-tab .accordion-item {
+        margin-bottom: 18px;
+    }
+
+    .privacy-detail h1,
+    .privacy-detail h2,
+    .privacy-detail h3,
+    .privacy-detail h4,
+    .privacy-detail h5,
+    .privacy-detail h6 {
+        margin-bottom: 15px;
+    }
+
+    .privacy-heading {
+        margin-bottom: 30px;
+    }
+
+    .hero-section {
+        min-height: 350px;
+    }
+
+    .login-section .back-btn {
+        margin-left: 0;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        padding: 10px 30px;
+    }
+
+    .sign-up-body {
+        padding: 40px;
+    }
+
+    .login-form .create-account {
+        padding-top: 28px;
+    }
+
+    .login-section .login-img .login-logo {
+        left: 32%;
+    }
+
+    /* .login-form {
+        padding: 40px 20px;
+    } */
+
+    .footer-box.py-100 {
+        padding: 30px 0;
+    }
+
+    .feature-box .feature-box-img img {
+        height: 180px;
+    }
+
+    .testimonial-box {
+        padding: 15px;
+    }
+
+    .testi-description {
+        padding-left: 0;
+    }
+
+    .feature-box-content {
+        padding: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 60px;
+    }
+
+    .pt-100 {
+        padding-top: 60px;
+    }
+
+    .pb-100 {
+        padding-bottom: 60px;
+    }
+
+    .py-100 {
+        padding: 60px 0;
+    }
+
+    .home-banner {
+        min-height: 550px;
+        display: flex;
+        /* align-items: center;
+        padding-top: 0; */
+    }
+
+    .banner-title {
+        font-size: 38px;
+    }
+
+    .brand-logo {
+        width: 187px;
+        height: 187px;
+    }
+
+    .customer-video iframe {
+        height: 400px;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        width: 100px;
+        height: 50px;
+    }
+
+    .main-header {
+        padding: 10px 0;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        margin-right: 60px;
+    }
+
+    /* .main-header .nav-menu {
+        gap: 10px;
+    } */
+
+    .faq-inner-tab .accordion-button {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .carrier-search-block .main-btn{
+        margin-top: 10px;
+    }
+
+    .shipper-review .post-project-inner{
+
+    margin-left: 0 !important;
+    }
+
+    .profile-rating .user-detail {
+        margin-left: 90px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .horse-information-list table tbody tr td, .shipper-profile-main-view table tbody tr td,.all-bid-view table tbody tr td{
+        min-width: 150px;
+    }
+    .home-banner {
+        min-height: 350px;
+        padding: 50px 0;
+    }
+    .carrier-upcoming-dashboard .post-view {
+        padding: 0 15px 15px;
+    }
+
+    .carrier-upcoming-dashboard .post-view ul li {
+        padding: 15px 15px 15px 0px;
+    }
+
+    .brand-logo img {
+        height: 140px;
+        max-width: 140px;
+    }
+
+    .main-header .nav-menu .nav-item.active .nav-link {
+        border-bottom: 0;
+    }
+
+    /* .blog-detail-img {
+        height: 350px;
+    } */
+
+    .widget-view .widget img {
+        margin-bottom: 0;
+        height: 160px;
+    }
+
+    .sidebar-widget-area .widget-view {
+        display: flex;
+        gap: 20px;
+    }
+
+    .carrier-input-box .form-search-item-input {
+        width: 31%;
+    }
+
+    .currency-change {
+        padding: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    .project-tab-box .post-project {
+        display: block;
+    }
+
+    .post-project-inner .chat-view-search {
+        margin-bottom: 15px;
+    }
+
+    .after-login-menu {
+        margin-left: 20px;
+    }
+    .after-login-menu.notification-menu{
+margin-left: 0;
+    }
+
+    .after-login-nav .container-fluid {
+        flex-wrap: unset;
+    }
+
+    /* .carrier-input-box .form-control{
+        width: 100%;
+    } */
+
+    .post-view-heading {
+        padding: 15px;
+    }
+
+    .view-route-btn .main-btn {
+        min-width: 100px;
+        padding: 8px 10px;
+    }
+
+    .post-view ul li {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .post-view-inner-block .amount {
+        font-size: 25px;
+    }
+
+    .project-listing-tab .nav-tabs .nav-item .notification-count {
+        right: 5px;
+        top: 5px;
+    }
+
+    /* .project-listing-tab .nav-tabs .nav-link {
+        padding: 20px 10px;
+        } */
+
+    .project-listing-tab.bid-tab-view .nav-tabs .nav-link{
+        padding: 20px 10px;
+    }
+    .project-listing-tab .nav {
+        padding: 15px 15px 0;
+    }
+
+    .post-view {
+        padding: 15px;
+    }
+
+    .all-bid-view table thead tr th {
+        padding: 10px;
+    }
+
+    .all-bid-view table tbody tr td {
+        padding: 10px;
+    }
+
+    .profile-review {
+        padding: 0 15px;
+    }
+
+    .profile-rating {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .profile-review-box {
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .address-inner-block .primary-address {
+        gap: 10px;
+    }
+
+    .shipper-detail-btn {
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .message-day::before {
+        width: 40%;
+        top: 25px;
+    }
+
+    .message-day::after {
+        width: 40%;
+        top: 25px;
+    }
+
+    .send-button {
+        transform: translate(-15%, -50%);
+    }
+
+    .formbold-form-input {
+        margin: 20px 0;
+        padding: 18px 80px 18px 20px;
+    }
+
+    .send-sms {
+        margin: 20px 0;
+    }
+
+    .all-message-view {
+        height: calc(74vh - 20px);
+    }
+
+    .chat-header-profile-pic {
+        width: 45px;
+        height: 45px;
+    }
+
+    .chat-view-page .chat-header-profile .chat-header-profile-pic img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .shipper-profile-main-view .shipper-profile-title {
+        padding: 20px;
+    }
+
+    .acc-setting-form .input-box {
+        padding: 0 20px;
+    }
+
+    .avatar-upload {
+        margin-bottom: 20px;
+    }
+
+    .shipper-profile-main-view .shipper-profile-body {
+        padding: 20px;
+    }
+
+    /* .shipper-profile-left-list .shipper-profile-left-view .shipper-inner-title svg {
+        margin-right: 8px;
+    } */
+
+    .get-touch-form-box {
+        padding: 20px;
+    }
+
+    .faq-inner-tab .accordion-body {
+        padding: 0 20px 20px;
+        font-size: 15px;
+    }
+
+    .faq-list {
+        margin-bottom: 20px;
+    }
+
+    .contact-box .contact-icon {
+        margin-bottom: 30px;
+    }
+
+    .select2-container {
+        display: block !important;
+    }
+
+    .inner-tab-title {
+        margin-bottom: 15px;
+    }
+
+    .inner-tab-title .title {
+        font-size: 20px;
+    }
+
+    .signup-tab .nav-tabs {
+        margin-bottom: 20px;
+    }
+
+    .login-form {
+        margin-top: 0;
+    }
+
+    .login-section .back-btn {
+        padding-bottom: 20px;
+    }
+
+    .login-section .login-img {
+        /* min-height: 25vh; */
+        display: none;
+    }
+
+    .login-section .login-img .login-logo {
+        top: 10px;
+        left: 20px;
+    }
+
+    .inner-block-profile-pic .text {
+        font-size: 18px;
+    }
+
+    .select-all-inner-block .content .detail .inner-title {
+        width: 92%;
+    }
+
+    .select-all-inner-block .content {
+        gap: 10px;
+    }
+
+    .notification-list {
+        padding: 0 20px;
+    }
+
+    .choose-plane-block .price-box .price {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .choose-plane-block .price-box .title {
+        margin-bottom: 15px;
+    }
+
+    .payment-history-box .table-responsive {
+        margin-top: 25px;
+    }
+
+    .renew-box {
+        width: fit-content;
+    }
+
+    /* .shipper-profile-left-list .shipper-profile-left-view .shipper-inner-title {
+        padding: 20px;
+    } */
+
+    .about-us-content .about-us-description ul li {
+        margin-bottom: 15px;
+    }
+
+    .direction-change {
+        flex-direction: column-reverse;
+    }
+
+    .carrier-story-img img {
+        margin-right: 25px;
+    }
+
+    .shipper-benefit .about-us-content {
+        margin-bottom: 25px;
+        text-align: start !important;
+    }
+
+    .shipper-benefit-box .shipper-benefit-content .title {
+        margin-bottom: 10px;
+    }
+
+    .shipper-benefit-box .count .number {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .shipper-border {
+        border-right: 0;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 20px 10px;
+    }
+
+    .shipper-benefit-body .shipper-border:nth-child(4) {
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    .shipper-benefit-body .shipper-border:nth-child() {
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    .carrier-review-top .shipper-heading {
+        margin-bottom: 12px;
+    }
+
+    .carrier-review-box .carrier-img img {
+        max-width: 100%;
+    }
+
+    .get-touch-img img {
+        height: 400px;
+    }
+
+    .business-visibility-box {
+        padding: 30px;
+        min-height: 250px;
+    }
+
+    .business-visibility-btn {
+        margin-left: unset;
+    }
+
+    .maps iframe {
+        height: 250px;
+    }
+
+    .privacy-heading {
+        margin-bottom: 20px;
+    }
+
+    .privacy-detail .inner-text {
+        margin-bottom: 15px;
+    }
+
+    .hero-section {
+        min-height: 300px;
+    }
+
+    .login-section .login-img .login-bg {
+        height: 80vh;
+    }
+
+    .login-form .title {
+        font-size: 30px;
+    }
+
+    /*
+    .login-section .back-btn {
+        padding-left: 25px;
+    } */
+
+    .login-form .create-account {
+        padding-top: 25px;
+    }
+
+    .input-box {
+        margin-bottom: 15px;
+    }
+
+    /* .login-form {
+        padding: 25px 25px;
+    } */
+
+    .our-patners-title .main-title {
+        margin-bottom: 20px;
+    }
+
+    .home-banner-slide.owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .home-banner-slide.owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .mobile-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mobile-toggle-wrp .header-btn {
+        display: flex;
+    }
+
+    .top-nav-box {
+        display: block;
+    }
+
+    .top-nav-info {
+        justify-content: center;
+    }
+
+    .pr-50 {
+        padding-right: 0;
+    }
+
+    .pl-50 {
+        padding-left: 0;
+    }
+
+    .banner-title {
+        font-size: 32px;
+    }
+
+    .banner-content .banner-description p {
+        font-size: 15px;
+    }
+
+    .testimonial-slide.owl-carousel .owl-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonial-slide.owl-carousel .owl-nav button.owl-prev {
+        position: unset;
+    }
+
+    .testimonial-slide.owl-carousel .owl-nav button.owl-next {
+        position: unset;
+    }
+
+    .pt-100 {
+        padding-top: 50px;
+    }
+
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .py-100 {
+        padding: 50px 0;
+    }
+
+    .about-us-img img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .about-us-content .about-us-description {
+        margin-bottom: 20px;
+    }
+
+    /* .home-banner{
+        min-height: 450px;
+    } */
+
+    .customer .pt-100 {
+        padding-top: 0 !important;
+    }
+
+    .our-patners-title {
+        width: 50%;
+    }
+
+    .brand-logo {
+        width: 174px;
+        height: 174px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .main-header .nav-menu {
+        text-align: center;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: unset;
+    }
+
+    .offcanvas-head .navbar-toggler-icon i {
+        font-size: 22px;
+    }
+
+    .offcanvas-head .btn-close {
+        display: block;
+        opacity: unset;
+    }
+
+    .navbar-icon i {
+        font-size: 22px;
+        color: #062b49;
+    }
+
+    .offcanvas-head .navbar-toggler-icon {
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .offcanvas-head .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    /* .offcanvas-head.navbar-collapse.show {
+        right: 0;
+    }
+
+    .offcanvas-head.navbar-collapse {
+        position: absolute;
+        right: -300px;
+        top: 0;
+        background: #fff;
+        height: 100vh;
+        transition: right 0.5s ease-out;
+        width: 300px;
+        padding: 30px 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: fixed;
+        z-index: 9999;
+    } */
+
+    .offcanvas-head.offcanvas.offcanvas-end {
+        height: 100vh;
+        width: 300px;
+        background-color: #fff;
+        padding: 30px 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .navbar-icon i {
+        font-size: 22px;
+        color: #062b49;
+    }
+
+    .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    .mobile-toggle-wrp {
+        display: flex !important;
+    }
+
+    /* .top-nav {
+        display: none;
+    } */
+
+    .main-title {
+        font-size: 32px;
+    }
+
+
+    .hours-informationDiv,
+.location-informationDiv,
+.instructions-informationDiv{
+    padding-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    /* .blog-detail-img {
+        height: 280px;
+    } */
+
+    .widget-view .widget img {
+        width: 160px;
+    }
+
+    .carrier-input-box .form-search-item-input {
+        width: 47%;
+    }
+
+    .project-list-table tbody tr .action .action-btn .main-btn {
+        white-space: nowrap;
+    }
+
+    .shipper-detail-maps iframe {
+        height: 300px;
+    }
+
+    .horse-information-list ul {
+        gap: 30px;
+    }
+
+    .horse-information-list ul li .horse-type {
+        padding-right: 30px;
+    }
+
+    .carrier-dashboard {
+        height: unset;
+    }
+
+    .vehicle-detail li .vehicle-detail-box {
+        margin-bottom: 20px;
+    }
+
+    .dashboard-inner-block .user-contact li .user-list-box {
+        margin-bottom: 20px;
+    }
+
+    .dashboard-inner-block {
+        padding: 15px;
+    }
+
+    .chat-view-page .main-hero-heading .user-name .chat-user-name {
+        font-size: 15px;
+    }
+
+    .chat-view-page .main-hero-heading .user-name-text {
+        font-size: 14px;
+    }
+
+    .all-message-view {
+        padding: 15px 10px;
+    }
+
+    .chat-header-profile-pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-view-page .chat-header-profile .chat-header-profile-pic img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-view-page input[type="search"] {
+        padding: 10px 50px 10px 10px;
+    }
+
+    .plan-detail .main-btn {
+        padding: 10px 15px;
+    }
+
+    .renew-box .renew-text {
+        font-size: 15px;
+    }
+
+    .renew-box {
+        padding: 10px 15px;
+    }
+
+    .btn-box .main-btn i {
+        margin-left: 10px;
+    }
+
+    .shipper-profile-left-list .shipper-profile-left-view .shipper-inner-title svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .shipper-profile-main-view .shipper-profile-body {
+        padding: 20px;
+    }
+
+    .faq-inner-tab .accordion-button {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .faq-inner-tab .accordion-body {
+        padding: 0 15px 15px;
+    }
+
+    .contact-box .conatct-box-heading .title {
+        margin-bottom: 10px;
+    }
+
+    .contact-box .contact-icon {
+        margin-bottom: 20px;
+    }
+
+    .inner-tab-title .title {
+        font-size: 18px;
+    }
+
+    .select-all-block-close {
+        position: absolute;
+        top: 18px;
+        right: 0;
+    }
+
+    .address-inner-block .address-input {
+        margin-bottom: 15px;
+    }
+
+    .address-inner-block {
+        display: block;
+    }
+
+    .address-inner-block .address-input .my-address .text {
+        width: 92%;
+    }
+
+    .shipper-profile-main-view .shipper-profile-title {
+        padding: 20px;
+    }
+
+    .shipper-profile-left-list .shipper-profile-left-view .shipper-inner-title svg {
+        margin-right: 12px;
+    }
+
+    /* .shipper-profile-left-list .shipper-profile-left-view .shipper-inner-title {
+        padding: 15px;
+    } */
+
+    .main-btn {
+        min-width: 120px;
+        padding: 10px 15px;
+    }
+
+    .business-visibility-box {
+        padding: 20px;
+        min-height: 200px;
+    }
+
+    .about-us-content .about-us-description ul li {
+        margin-bottom: 10px;
+    }
+
+    .carrier-story-img img {
+        width: 100%;
+        margin-right: 0;
+        height: 250px;
+    }
+
+    .about-us-img img {
+        height: 250px;
+    }
+
+    .shippers-hero .hero-content .banner-title {
+        margin-bottom: 10px;
+    }
+
+    .get-touch-img img {
+        height: 300px;
+    }
+
+    .login-section .login-img .login-bg {
+        height: 60vh;
+    }
+
+    .login-form .title {
+        font-size: 35px;
+    }
+
+    .mobile-wrapper {
+        gap: 15px;
+    }
+
+    .mobile-toggle-wrp .header-btn {
+        gap: 15px;
+    }
+
+    /* .home-banner {
+        min-height: 380px;
+    } */
+
+    .our-patners-title {
+        width: 100%;
+    }
+
+    .brand-logo {
+        width: 172px;
+        height: 172px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .layover-gallery .dz-preview.dz-image-preview{
+        width: 100%;
+    }
+    /* .layover-gallery .dz-default.dz-message{
+        min-width: 240px;
+    } */
+    /* .layover-gallery .dropzone.dz-clickable{
+        padding-bottom: 150px !important;
+    } */
+    .layover-gallery .dz-preview.dz-image-preview img{
+        height: auto;
+    }
+    .carrier-graph {
+        display: block !important;
+    }
+
+    .carrier-graph .form-label {
+        margin-bottom: 10px !important;
+    }
+
+    .shipper-profile-main-view .shipper-profile-title .title {
+        font-size: 18px;
+    }
+
+    .shipper-profile-main-view .shipper-profile-inner-title .title {
+        font-size: 15px;
+    }
+
+    .faq-inner-tab .accordion-button {
+        padding: 10px;
+    }
+
+    .testi-inner-box .testi-content {
+        margin-bottom: 8px;
+    }
+
+    .business-visibility-left .title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .carrier-input-box .start-radius .form-control {
+        width: 100%;
+    }
+
+    .pt-100 {
+        padding-top: 30px;
+    }
+
+    .pb-100 {
+        padding-bottom: 30px;
+    }
+
+    .mt-100 {
+        margin-top: 30px;
+    }
+
+    .py-100 {
+        padding: 30px 0;
+    }
+
+    /* .blog-detail-img {
+        height: 240px;
+    } */
+
+    .title-bar-primary2 {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .item-content .item-title {
+        font-size: 22px;
+    }
+
+    .team-detail-box-layout1 .single-item table tbody td {
+        font-size: 15px;
+    }
+
+    .team-detail-box-layout1 .single-item table thead tr th {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .team-detail-box-layout1 .single-item {
+        margin-bottom: 25px;
+    }
+
+    .team-detail-content p,
+    .team-detail-content span {
+        font-size: 15px;
+    }
+
+    .team-detail-box-layout1 {
+        padding: 15px;
+    }
+
+    .sidebar-widget-area .widget-view {
+        display: block;
+        padding: 15px;
+    }
+
+    .widget-call-to-action {
+        padding: 15px;
+    }
+
+    .widget-view .widget img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .carrier-input-box .form-search-item-input {
+        width: 100%;
+    }
+
+    .after-login-nav .logo img {
+        width: 90px;
+        height: 55px;
+    }
+
+    .shipper-detail-btn {
+        display: block;
+    }
+
+    .shipper-detail-btn .main-btn {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .horse-information-list ul {
+        display: block;
+    }
+
+    .horse-information-list ul li .horse-type {
+        padding-right: 0;
+        border-right: 0;
+        /* border-bottom: 1px solid #e1e1e1;
+        margin-bottom: 10px; */
+        padding-bottom: 15px;
+    }
+
+    .horse-information-list ul li:last-child .horse-type {
+        /* border-bottom: 0;
+        margin-bottom: 0; */
+        padding-bottom: 0;
+    }
+
+    .shipper-detail-maps iframe {
+        height: 250px;
+    }
+
+    .project-listing-tab .tab-content {
+        padding: 15px;
+    }
+
+    .carrier-profile-block .user-detail {
+        gap: 15px;
+    }
+
+    .carrier-profile-block .user-detail .user-list .title {
+        font-size: 18px;
+    }
+
+    .dashboard-inner-block .user-contact li .user-list-box {
+        margin-bottom: 15px;
+    }
+
+    .add-review-content .modal-header {
+        padding: 15px;
+    }
+
+    .rating-content {
+        margin-bottom: 15px;
+    }
+
+    .add-review-content .modal-body {
+        padding: 15px;
+    }
+
+    .all-bid-view table thead tr th {
+        white-space: nowrap;
+    }
+
+    .p-30 {
+        padding: 20px;
+    }
+
+    .profile-rating .user-detail {
+        margin-bottom: 10px;
+    }
+
+    .profile-rating {
+        display: block;
+    }
+
+    .profile-review-box .user-detail .user-name {
+        margin-bottom: 10px;
+    }
+
+    .review-profile-description .title {
+        margin-bottom: 10px;
+    }
+
+    .avatar-upload .avatar-preview img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .faq-list .faq-left-body .faq-inner-title a {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .replyd-sms .text-box {
+        min-width: 80%;
+    }
+
+    .basic-plan-box .title {
+        margin-bottom: 15px;
+    }
+
+    .basic-plan-box .description {
+        margin-bottom: 15px;
+    }
+
+    .avatar-upload .avatar-edit input + label:after {
+        font-size: 13px;
+        top: 2px;
+    }
+
+    .footer-bottom .copy-right .title {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contact-box {
+        padding: 20px;
+    }
+
+    .maps iframe {
+        height: 220px;
+    }
+
+    .sign-up-body {
+        padding: 30px;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        padding: 10px 20px;
+    }
+
+    .login-form .title {
+        font-size: 30px;
+    }
+
+    .login-section .login-img {
+        min-height: 40vh;
+    }
+
+    .testi-inner-box .testi-content {
+        margin-bottom: 10px;
+    }
+
+    .testi-inner-box {
+        display: block;
+    }
+
+    .testi-inner-box .testi-img {
+        margin-bottom: 15px;
+    }
+
+    .select-all-block {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* .acc-setting-form {
+        padding: 20px 0;
+    } */
+
+    .acc-setting-form .input-box {
+        padding: 0 20px;
+    }
+
+    /* .avatar-upload .avatar-preview {
+        width: 60px;
+        height: 60px;
+    } */
+
+    .avatar-upload {
+        margin-bottom: 20px;
+    }
+
+    .carrier-story-img img {
+        height: 200px;
+    }
+
+    .shipper-benefit-box .shipper-benefit-content .title {
+        font-size: 22px;
+    }
+
+    .shipper-benefit-box .count .number {
+        font-size: 25px;
+    }
+
+    .shipper-benefit .about-us-content {
+        margin-bottom: 5px;
+    }
+
+    .about-us-img img {
+        height: 200px;
+    }
+
+    .main-title {
+        margin-bottom: 12px;
+        font-size: 25px;
+    }
+
+    .rating-wrap .product-rate {
+        padding: 32px;
+    }
+
+    .rating-wrap .rating-point:before {
+        font-size: 16px;
+    }
+
+    .rating-wrap .product-rate:before {
+        font-size: 16px;
+    }
+
+    .get-touch-img img {
+        height: 200px;
+    }
+
+    .hero-section {
+        min-height: 250px;
+    }
+
+    .login-section .login-img .login-bg {
+        height: 40vh;
+    }
+
+    .customer-video iframe {
+        height: 300px;
+    }
+
+    .customer.mt-100 {
+        margin-top: 0;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .home-banner {
+        min-height: 350px;
+        padding-top: 50px;
+    }
+
+    .top-nav-info {
+        margin-bottom: 15px;
+    }
+
+    .top-nav-info:last-child {
+        margin-bottom: 0;
+    }
+
+    .top-nav-box .top-nav-info .mobile {
+        font-size: 13px;
+    }
+
+    .top-nav-info ul {
+        padding-left: 0;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        width: 95px;
+        height: 35px;
+    }
+
+    .main-btn {
+        padding: 8px 12px;
+    }
+
+    .brand-logo {
+        width: 50%;
+        height: 200px;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        margin-right: 40px;
+    }
+
+    .brand-logo img {
+        height: 120px;
+        max-width: 120px;
+    }
+
+    .hours-informationDiv,
+    .location-informationDiv,
+    .instructions-informationDiv{
+        padding-bottom: 25px;
+    }
+
+    .after-login-nav .container-fluid.px-60{
+        padding: 0px 5px;
+    }
+
+    .after-login-menu {
+        margin-left: 0px;
+    }
+
+    .price-range-input input{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .toggle-password {
+        margin-top: -27px;
+    }
+
+    .sign-up-body {
+        padding: 20px;
+    }
+
+    .brand-logo {
+        width: 100%;
+        height: 170px;
+    }
+
+    .acc-setting-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 14px !important;
+    }
+
+    /* .blog-detail-img {
+        height: 200px;
+    } */
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .login-form-heading .ac-detail {
+        font-size: 15px;
+    }
+
+    .shipper-detail-maps iframe {
+        height: 180px;
+    }
+
+    .footer-bottom {
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .date-delete-block {
+        flex-wrap: wrap;
+    }
+
+    .date-delete-block .date-delete-btn {
+        width: 100%;
+    }
+
+    .top-nav-info {
+        margin-bottom: 8px;
+    }
+
+    .hero-section {
+        min-height: 210px;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .mobile-toggle-wrp .header-btn {
+        gap: 10px;
+    }
+
+    .main-btn {
+        min-width: 100px;
+    }
+
+    .mobile-wrapper {
+        gap: 10px;
+    }
+
+    .main-header .mobile-wrapper .logo {
+        margin-right: 28px;
+    }
+
+    .address-input .form-check-input {
+        margin-right: 15px;
+    }
+
+    .top-nav-info {
+        display: block;
+    }
+
+    .top-nav-info .title {
+        padding-left: 0;
+    }
+
+    .top-nav-box .top-nav-info .mobile {
+        padding-right: 0;
+        border: 0;
+    }
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    .carrier-story-img img {
+        height: 150px;
+    }
+
+    .about-us-img img {
+        height: 150px;
+    }
+
+    .login-form .create-account {
+        font-size: 15px;
+    }
+
+    .form-control {
+        padding: 7px;
+    }
+
+    .form-check-input {
+        margin-right: 0;
+    }
+
+    /* .login-form {
+        padding: 25px 15px;
+    } */
+
+    .login-form .title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .banner-title {
+        font-size: 25px;
+    }
+
+    .login-section .login-img .login-bg {
+        height: 30vh;
+    }
+
+    .pagination-wrapper ul .count {
+        width: 35px;
+        height: 35px;
+    }
+
+    .pagination-wrapper ul{
+        gap: 11px;
+    }
+
+    .pagination-wrapper ul .current_page{
+        width: 30px;
+        height: 30px;
+    }
+
+    .pagination-wrapper ul .count a {
+        font-size: 15px;
+    }
+
+    .post-project{
+        margin-left: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .sub-title {
+        font-size: 15;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .project-listing-tab .nav-tabs .nav-link {
+        /* padding: 17px 20px 10px 20px; */
+        font-size: 13px;
+    }
+    .project-listing-tab.bid-tab-view .nav-tabs .nav-link{
+        padding: 17px 20px 10px 20px;
+
+    }
+
+    .main-header .mobile-wrapper .logo {
+        margin-right: 20px;
+    }
+
+    .faq-inner-tab {
+        padding: 10px;
+    }
+
+    .signup-tab .nav-tabs .nav-link {
+        padding: 8px 10px;
+    }
+
+    .signup-tab .nav-tabs {
+        gap: 3px;
+    }
+
+    .main-btn {
+        min-width: 90px;
+    }
+}
